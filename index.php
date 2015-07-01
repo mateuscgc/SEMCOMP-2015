@@ -6,17 +6,19 @@
     <?php require_once('includes/head.inc');?>
 </head>
 <body>
-   <?php require_once('includes/navigation.inc');?>
-   <header class="home-header">
-       <video class="home-bg-video" autoplay loop poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg">
-           <source src="http://demosthenes.info/assets/videos/polina.webm" type="video/webm">
-           <source src="http://demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
-       </video>
-       <div class="social-networks-home">
-           <i class="icon-facebook-sign "></i>
-           <i class="icon-facebook-sign"></i>
-           <i class="icon-facebook-sign"></i>
-       </div>
-   </header>
+    <?php require_once('includes/navigation.inc');?>
+    <header class="home-header">
+        <video class="home-bg-video" autoplay loop>
+            <source src="https://hrcdn.net/videos/hr_20mb.webm" type="video/webm">
+        </video>
+        <div class="overlay">
+            <div class="social-networks social-networks-home">
+                <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="icon-youtube"></i></a>
+                <a ><i class="icon-envelope"></i></a>
+            </div>
+        </div>
+
+    </header>
 </body>
 </html>
