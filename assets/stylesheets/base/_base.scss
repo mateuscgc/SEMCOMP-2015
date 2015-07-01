@@ -9,11 +9,14 @@ html, body{
     height: 100%;
 	padding: 0;
 }
-main {
+main, .regular-section {
     width: 100%;
-    max-width: 1000px;
-    margin: -50px auto 0 auto;
-    padding: 20px;
-    height: 400px;
-    background-color: cadetblue;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
 }

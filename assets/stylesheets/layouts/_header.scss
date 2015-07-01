@@ -6,47 +6,57 @@
 .home-header {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 600px;
     overflow: hidden;
+
+    .home-bg-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+    }
+
+    .overlay {
+        padding: 3em 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
 }
 
-.home-bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-}
 .overlay {
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-.home-header .overlay {
-    padding: 3em 0;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 .social-networks {
     position: relative;
     margin: 0 auto;
     text-align: center;
-}
-.social-networks i {
-    display: inline-block;
-    font-size: 30px;
-    margin: 10px 20px;
+
+    i {
+        display: inline-block;
+        font-size: 30px;
+        margin: 10px 20px;
+    }
 }
 
-.social-networks-home a, .social-networks-home a:hover, .social-networks-home a:focus {
-    text-decoration: none;
-    color: white;
+.social-networks-home {
+    a, a:hover, a:focus {
+        text-decoration: none;
+        color: white;
+    }
+    i:hover {
+        color: $light-orange;
+    }
 }
 
-.social-networks i:hover {
-    color: $light-orange;
+.intro-wrapper {
+    margin-top: 100px;
+    padding: 2em;
+    position: relative;
+    text-align: center;
 }
