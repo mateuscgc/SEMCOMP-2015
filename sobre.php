@@ -6,8 +6,7 @@
 </head>
 <body>
    <?php require_once('includes/navigation.inc');?>
-   <header class="header-aboutus"></header>
+   <header class="default-header header-aboutus"></header>
    <main></main>
-
 </body>
 </html>
