@@ -18,11 +18,12 @@
                 <a ><i class="icon-envelope"></i></a>
             </div>
             <div class="intro-wrapper">
-                <span>Apresentamos a 5ª Edição da Maior Semana da Computação do Brasil</span>
-                <h1>SEMCOMP <span>2015</span></h1>
-                <h2>02 a 05 de Setembro</h2>
-                <span>na Escola Politécnica da UFBA, Salvador</span>
+                <span class="semcomp-presents">Apresentamos a 5ª Edição da Maior Semana da Computação do Brasil</span>
+                <h1 class="semcomp-title">SEMCOMP <span>2015</span></h1>
+                <h2 class="semcomp-date">02 a 05 de Setembro</h2>
+                <span class="semcomp-local">Escola Politécnica da UFBA</span>
             </div>
+            <button class="btn btn-home-video">Quem Vai<i class="icon-chevron-down"></i></button>
         </div>
     </header>
     <main>
