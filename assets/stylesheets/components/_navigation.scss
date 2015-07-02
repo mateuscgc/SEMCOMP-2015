@@ -1,4 +1,8 @@
 nav{
+    -webkit-box-shadow:0px 2px 2px $dark-orange;
+       -moz-box-shadow:0px 2px 2px $dark-orange;
+            box-shadow:0px 2px 2px $dark-orange;
+
     position: fixed;
     background-color: white;
     width: 100%;
@@ -64,6 +68,11 @@ nav{
 }
 .rotate:hover{
     @include rotate(360deg);
+}
+.animation-menu{
+    height: 90px;
+    padding-top: 10px;
+    ul>li>ul{padding-top: 10px;}
 }
 @media screen and (max-width: 768px) {
     nav {

@@ -22,3 +22,11 @@ $(document).ready(function(){
         }
     });
 });
+$(window).bind('mousewheel', function(event) {
+    if (event.originalEvent.wheelDelta >= 0) {
+         $('nav').addClass("animation-menu");
+    }
+    else {
+        $('nav').removeClass("animation-menu");
+    }
+});

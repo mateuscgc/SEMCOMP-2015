@@ -4,7 +4,7 @@
     <ul>
         <li class="nav">HOME</li>
         <li class="nav">A SEMCOMP</li>
-        <li class="nav" id="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down"></i>
+        <li class="nav" id="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down rotate"></i>
             <ul class="programming">
                 <li class="btn-programming"><i class="fa fa-table rotate"></i><p> HORÁRIOS</p></li>
                 <li class="btn-programming"><i class="fa fa-trophy rotate"></i><p> MARATONA</p></li>
