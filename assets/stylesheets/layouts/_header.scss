@@ -4,6 +4,7 @@
     background-color: black;
 }
 .home-header {
+    padding-top: $navheigth;
     position: relative;
     width: 100%;
     height: 700px;
@@ -17,7 +18,7 @@
         min-height: 100%;
         width: auto;
         height: auto;
-        z-index: -1;
+        z-index: -5;
     }
 
     .overlay {
@@ -55,7 +56,7 @@
 }
 
 .intro-wrapper {
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 2em;
     position: relative;
     text-align: center;
@@ -66,7 +67,7 @@
     .semcomp-title {
         font-size: 3.5em;
         border-bottom: 1px solid $primary-green;
-        margin: 80px auto 0 auto;
+        margin: 40px auto 0 auto;
         width: 400px;
         max-width: 95%;
         span {
@@ -88,6 +89,13 @@
 
 @media screen and (max-width: 500px) {
     .semcomp-title {
-        font-size: 2.7em!important;
+        margin: 20px auto 0 auto!important;
+        font-size: 1.8em!important;
+    }
+    .semcomp-date {
+        font-size: 1.4em!important;
+    }
+    .semcomp-presents {
+        font-size: 1.2em!important;
     }
 }

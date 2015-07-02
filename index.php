@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php require_once('includes/navigation.inc');?>
+    <main>
     <header class="home-header">
         <video class="home-bg-video" autoplay loop>
             <source src="https://hrcdn.net/videos/hr_20mb.webm" type="video/webm">
@@ -27,7 +28,6 @@
             <button class="btn btn-home-video">Quem Vai<i class="icon-chevron-down"></i></button>
         </div>
     </header>
-    <main>
         <section class="regular-section" id="keynotes">
             <div class="content">
                 <div class="row">

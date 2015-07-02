@@ -58,3 +58,16 @@
         margin-left: 20px;
     }
 }
+.btn-menu {
+    margin: 4px;
+    background-color: transparent;
+    color: $dark-orange;
+    &::before {
+        color: $dark-orange;
+    }
+}
+.btn-programming {
+    &::before {
+        color: $dark-orange;
+    }
+}
