@@ -71,3 +71,13 @@
         color: $dark-orange;
     }
 }
+.btn-form {
+    width: 50%;
+    max-width: 200px;
+    margin-top: 20px;
+    background-color: $dark-orange;
+    color: white;
+    &::before {
+        color: $dark-orange;
+    }
+}
