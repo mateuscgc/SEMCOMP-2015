@@ -24,7 +24,7 @@
                 <h2 class="semcomp-date">02 a 05 de Setembro</h2>
                 <span class="semcomp-local">Escola Politécnica da UFBA</span>
             </div>
-            <button class="btn btn-home-video">Quem Vai<i class="icon-chevron-down"></i></button>
+            <button class="btn btn-nobg-green btn-home-video">Quem Vai<i class="icon-chevron-down"></i></button>
         </div>
     </header>
     <main>
@@ -77,9 +77,59 @@
                         <img src="assets/images/vinicius-dias.jpg" height="960" width="960" class="speaker-thumb keynote-thumb"></img>
                         <div class="keynote-info">
                             <h2 class="keynote-name">Vinicius Dias</h2>
-                            <span class="keynote-title">Gerete de Treinamentos</span>
+                            <span class="keynote-title">Gerente de Treinamentos</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="regular-section" id="data">
+            <div class="bg-test"></div>
+            <div class="content">
+                <div class="data-unit col-md-3 col-xs-6">
+                    <h1>4</h1>
+                    <h3>Dias</h3>
+                </div>
+                <div class="data-unit col-md-3 col-xs-6">
+                    <h1>30+</h1>
+                    <h3>Palestras</h3>
+                </div>
+                <div class="data-unit col-md-3 col-xs-6">
+                    <h1>30+</h1>
+                    <h3>Horas</h3>
+                </div>
+                <div class="data-unit col-md-3 col-xs-6">
+                    <h1>6</h1>
+                    <h3>Cursos</h3>
+                </div>
+                <div class="data-actions">
+                    <button class="btn btn-nobg-green">Programação Completa</button>
+                    <button class="btn btn-green">Inscreva-se</button>
+                </div>
+            </div>
+        </section>
+        <section class="regular-section" id="sponsors">
+            <div class="content">
+                <h3 class="sub-title">Quem está contribuindo com a realização da SEMCOMP 2015.</h3>
+                <p class="sponsor-type">Patrocínio Diamante</p>
+                <div class="sponsor-unit sponsor-diamond">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                </div>
+                <p class="sponsor-type">Patrocínio Ouro</p>
+                <div class="sponsor-unit sponsor-gold">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                </div>
+                <p class="sponsor-type">Patrocínio Prata</p>
+                <div class="sponsor-unit sponsor-silver">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                </div>
+                <p class="sponsor-type">Patrocínio Bronze</p>
+                <div class="sponsor-unit sponsor-bronze">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
                 </div>
             </div>
         </section>
