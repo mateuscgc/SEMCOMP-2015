@@ -2,10 +2,11 @@
 $(document).ready(function(){
     var i = 0;
     var j = 0;
-    $('#dropdown').click(function() {
+    var z = 0;
+    $('#dropdown').click(function () {
         if (j == 0){
             $('.programming').slideDown("slow");
-            j++;
+            j = 1;
         } else {
             $('.programming').slideUp("slow");
             j = 0;
@@ -20,4 +21,12 @@ $(document).ready(function(){
             i = 0;
         }
     });
+});
+$(window).bind('mousewheel', function(event) {
+    if (event.originalEvent.wheelDelta >= 0) {
+         $('nav').addClass("animation-menu");
+    }
+    else {
+        $('nav').removeClass("animation-menu");
+    }
 });

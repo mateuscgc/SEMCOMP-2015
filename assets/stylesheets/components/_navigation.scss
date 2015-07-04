@@ -1,44 +1,78 @@
 nav{
-    padding: 5px;
+    -webkit-box-shadow:0px 2px 2px $dark-orange;
+       -moz-box-shadow:0px 2px 2px $dark-orange;
+            box-shadow:0px 2px 2px $dark-orange;
+
+    position: fixed;
+    background-color: white;
     width: 100%;
     height: $navheigth;
+    z-index: 999;
     #toggle{float: right; padding: 20px; cursor: pointer;}
     .logo{
-        padding: 5px;
+        padding: 10px;
         height: 100%;
         float: left;
         img{height: 100%;}
     }
     ul {
+        background-color: white;
         display: block;
         margin: 0px;
         padding: 0px;
         float: right;
         li{
+            cursor: pointer;
+            background-color: white;
             margin: auto;
+            height: 100%;
             padding: 17px 10px;
             display: inline-block;
             height: 100%;
         }
-        li:hover{border-bottom: $border;}
-        .bg1{background-color: $primary-green;}
+        li:hover{
+            color: $dark-orange;
+        }
+        .bg1{color: $primary-green;}
         #dropdown{cursor: pointer;}
     }
 
 }
 .programming{
+    padding:  0 auto 0 auto;
     text-align: center;
     display: none;
     position: fixed;
     top: $navheigth;
     left: 0px;
     width: 100%;
-    height: 80px;
-    li{width: 24%; text-align: center; vertical-align: middle; color: white;}
+    height: 130px;
+    li{
+        height: 80%;
+        margin: 10px 0px;
+        width: 24%;
+        text-align: center;
+        color: white;
+        p{font-size: 0.7em;}
+        i{width: 100%; font-size: 1.2em;}
+
+    }
     li:first-child{background-color: $dark-grey;}
-    li:nth-child(2){background-color: $dark-orange;}
+    li:nth-child(2){background-color: $primary-green;}
     li:nth-child(3){background-color: $light-grey;}
     li:nth-child(4){background-color: $light-orange;}
+}
+.rotate{
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+                    transition: transform .2s ease-in-out;
+}
+.rotate:hover{
+    @include rotate(360deg);
+}
+.animation-menu{
+    height: 90px;
+    padding-top: 10px;
+    ul>li>ul{padding-top: 10px;}
 }
 @media screen and (max-width: 768px) {
     nav {
@@ -46,7 +80,6 @@ nav{
             display: none;
             width: 100%;
             li {display: block;}
-            li:hover{border-bottom: none; border-left: $border;}
         }
     }
     .programming{
@@ -54,7 +87,6 @@ nav{
         top: inherit;
         height: auto;
         li{display: inline-block;}
-        li:hover{border-left: none; border-bottom: $border;}
     }
 }
 @media screen and (min-width: 769px) {

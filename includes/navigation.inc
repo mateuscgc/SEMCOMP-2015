@@ -1,18 +1,18 @@
 <nav>
    <div class="logo"><img src="assets/images/logo.png" alt=""></div>
-   <i id="toggle" class="fa fa-bars"></i>
+   <button id="toggle" class="btn btn-menu"><i class="fa fa-bars"></i></button>
     <ul>
-        <li>HOME</li>
-        <li>A SEMCOMP</li>
-        <li id="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down"></i>
+        <li class="nav">HOME</li>
+        <li class="nav">A SEMCOMP</li>
+        <li class="nav" id="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down rotate"></i>
             <ul class="programming">
-                <li><i class="fa fa-table"></i><p>HORÁRIOS</p></li>
-                <li><i class="fa fa-trophy"></i><p>MARATONA</p></li>
-                <li><i class="fa fa-briefcase"></i><p>STARTUPS</p></li>
-                <li><i class="fa fa-gamepad"></i><p>GAMES</p></li>
+                <li class="btn-programming"><i class="fa fa-table rotate"></i><p> HORÁRIOS</p></li>
+                <li class="btn-programming"><i class="fa fa-trophy rotate"></i><p> MARATONA</p></li>
+                <li class="btn-programming"><i class="fa fa-briefcase rotate"></i><p> STARTUPS</p></li>
+                <li class="btn-programming"><i class="fa fa-gamepad rotate"></i><p> GAMES</p></li>
             </ul>
         </li>
-        <li>CONTATO</li>
-        <li class="bg1">INSCREVA-SE</li>
+        <li class="nav">CONTATO</li>
+        <li class="nav rotate">INSCREVA-SE</li>
     </ul>
 </nav>
