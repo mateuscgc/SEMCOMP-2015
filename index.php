@@ -108,6 +108,31 @@
                 </div>
             </div>
         </section>
+        <section class="regular-section" id="sponsors">
+            <div class="content">
+                <h3 class="sub-title">Quem está contribuindo com a realização da SEMCOMP 2015.</h3>
+                <p class="sponsor-type">Patrocínio Diamante</p>
+                <div class="sponsor-unit sponsor-diamond">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                </div>
+                <p class="sponsor-type">Patrocínio Ouro</p>
+                <div class="sponsor-unit sponsor-gold">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                </div>
+                <p class="sponsor-type">Patrocínio Prata</p>
+                <div class="sponsor-unit sponsor-silver">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                </div>
+                <p class="sponsor-type">Patrocínio Bronze</p>
+                <div class="sponsor-unit sponsor-bronze">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                </div>
+            </div>
+        </section>
     </main>
    <?php require_once('includes/footer.inc');?>
 </body>
