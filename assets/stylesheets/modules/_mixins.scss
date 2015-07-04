@@ -1,0 +1,17 @@
+@mixin transition($value...) {
+    -webkit-transition: $value;
+    -o-transition: $value;
+    transition: $value;
+}
+
+@mixin cubic-bezier($value...) {
+    -webkit-transition-timing-function: cubic-bezier($value);
+    -o-transition-timing-function: cubic-bezier($value);
+    transition-timing-function: cubic-bezier($value);
+}
+
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -o-transform: $value;
+    transform: $value
+}

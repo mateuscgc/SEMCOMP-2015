@@ -6,13 +6,8 @@
     border: none;
     border-radius: 8px;
 
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-
-    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    @include transition(0.3s);
+    @include cubic-bezier(0.75, 0, 0.125, 1);
 
     &::before {
         content: '';
@@ -27,24 +22,14 @@
         border-style: solid;
         opacity: 0;
 
-        -webkit-transform: scale3d(1.2, 1.2, 1);
-        -o-transform: scale3d(1.2, 1.2, 1);
-        transform: scale3d(1.2, 1.2, 1);
-
-        -webkit-transition: transform 0.3s, opacity 0.3s;
-        -o-transition: transform 0.3s, opacity 0.3s;
-        transition: transform 0.3s, opacity 0.3s;
-
-        -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-        -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+        @include transform(scale3d(1.2, 1.2, 1));
+        @include transition(transform 0.3s, opacity 0.3s);
+        @include cubic-bezier(0.75, 0, 0.125, 1);
     }
     &:hover::before {
         opacity: 1;
 
-        -webkit-transform: scale3d(1, 1, 1);
-        -o-transform: scale3d(1, 1, 1);
-        transform: scale3d(1, 1, 1);
+        @include transform(scale3d(1, 1, 1));
     }
     &:focus {
         outline: none;

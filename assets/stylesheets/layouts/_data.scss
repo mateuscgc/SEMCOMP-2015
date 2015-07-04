@@ -1,13 +1,6 @@
 #data {
     background-image: url(../images/salvador.jpg);
-
-    /*Fazer Mixin*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    /*Outro Mixin*/
-    /*background-attachment: fixed;*/
+    @extend %bg-cover-center;
 
     .bg-test {
         background-color: rgba(black, .7);
@@ -16,19 +9,15 @@
 
 .data-unit {
     text-align: center;
-    /*background-color: $purple;*/
     h1 {
         font-size: 6em;
-        /*background-color: red;*/
         margin: 10px 0 0 0;
         height: 80px;
         line-height: 100px;
         color: $primary-green;
-        /*font-weight: normal;*/
     }
     h3 {
         font-size: 1.5em;
-        /*background-color: green;*/
         margin-top: 0;
         color: white;
     }
@@ -36,15 +25,14 @@
 
 .data-actions {
     width: 100%;
-    /*margin-top: 20px;*/
     padding: 10px 0;
     overflow: auto;
-    /*background-color: white;*/
     text-align: center;
     .btn {
         display: inline-block;
         margin: 10px 10px;
         width: 220px;
         height: 45px;
+        font-size: 15px;
     }
 }
