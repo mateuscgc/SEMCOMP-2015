@@ -32,18 +32,18 @@
                 <div class="timeline-event timeline-talk">
                     <img src="assets/images/caio-sacramento.jpg" height="960" width="720" alt="" class="speaker-thumb">
                     <div class="talk-details">
-                        <div class="talk-place"><i class="icon-smile"></i> Caio Sacramento</div>
-                        <div class="talk-place"><i class="icon-time"></i> 08:00 ~ 09:00</div>
-                        <div class="talk-place"><i class="icon-map-marker"></i> Sala Alan Turing</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Palestrante"><i class="icon-smile"></i> Caio Sacramento</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Horário"><i class="icon-time"></i> 08:00 ~ 09:00</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Local"><i class="icon-map-marker"></i> Sala Alan Turing</div>
                         <h1 class="talk-title">Só Falta o PHP</h1>
                     </div>
                 </div>
                 <div class="timeline-event timeline-talk">
                     <img src="assets/images/cristiano-santos.jpg" height="222" width="222" alt="" class="speaker-thumb">
                     <div class="talk-details">
-                        <div class="talk-place"><i class="icon-smile"></i> Cristano Santos</div>
-                        <div class="talk-place"><i class="icon-time"></i> 08:00 ~ 09:00</div>
-                        <div class="talk-place"><i class="icon-map-marker"></i> Sala Alan Turing</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Palestrante"><i class="icon-smile"></i> Cristano Santos</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Horário"><i class="icon-time"></i> 08:00 ~ 09:00</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Local"><i class="icon-map-marker"></i> Sala Alan Turing</div>
                         <h1 class="talk-title">O poder está no Backend</h1>
                     </div>
                     <p class="talk-description">
@@ -53,20 +53,22 @@
                 <div class="timeline-event timeline-talk">
                     <img src="assets/images/diego-cajaiba.jpg" height="282" width="282" alt="" class="speaker-thumb">
                     <div class="talk-details">
-                        <div class="talk-place"><i class="icon-smile"></i> Diego Cajaiba</div>
-                        <div class="talk-place"><i class="icon-time"></i> 08:00 ~ 09:00</div>
-                        <div class="talk-place"><i class="icon-map-marker"></i> Sala Alan Turing</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Palestrante"><i class="icon-smile"></i> Diego Cajaiba</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Horário"><i class="icon-time"></i> 08:00 ~ 09:00</div>
+                        <div class="talk-place" data-toggle="tooltip" data-placement="top" title="Local"><i class="icon-map-marker"></i> Sala Alan Turing</div>
                         <h1 class="talk-title">Porque grande líderes aumentam a confiança da equipe.</h1>
                     </div>
                 </div>
                 <div class="timeline-event time-title">09:00</div>
                 <div class="timeline-event time-title">10:00</div>
                 <div class="timeline-event time-title">11:00</div>
-                <div class="timeline-event time-title">12:00</div>
+                <!-- <div class="timeline-event time-title">12:00</div> -->
+                <div class="timeline-event food-event"><i class="icon-food food"></i><span>Almoço</span></div>
                 <div class="timeline-event time-title">13:00</div>
                 <div class="timeline-event time-title">14:00</div>
                 <div class="timeline-event time-title">15:00</div>
                 <div class="timeline-event time-title">16:00</div>
+                <div class="timeline-event food-event"><i class="icon-food food"></i><span>Coffee Break</span></div>
                 <div class="timeline-event time-title">17:00</div>
                 <div class="timeline-event time-title">18:00</div>
                 <div class="timeline-event time-title">19:00</div>
@@ -74,5 +76,6 @@
             </div>
        </div>
    </main>
+   <?php require_once('includes/footer.inc'); ?>
 </body>
 </html>

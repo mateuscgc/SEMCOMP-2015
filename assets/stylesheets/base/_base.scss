@@ -34,6 +34,6 @@ main, .regular-section {
 
 .overlay-content {
     margin-top: -50px;
-    background-color: $light-grey;
+    background-color: lighten($light-grey, 5%);
     height: 100%;
 }
