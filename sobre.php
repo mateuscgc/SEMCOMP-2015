@@ -7,6 +7,9 @@
 <body>
    <?php require_once('includes/navigation.inc');?>
    <header class="default-header header-aboutus"></header>
-   <main></main>
+   <main>
+       <div class="content overlay-content">
+       </div>
+   </main>
 </body>
 </html>
