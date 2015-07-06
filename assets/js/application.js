@@ -1,3 +1,4 @@
+// Menu
 $(document).ready(function(){
     var i = 0;
     var j = 0;
@@ -21,6 +22,30 @@ $(document).ready(function(){
     });
 });
 
+// Tooltip Activator
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+// Talk Description Expand
+$('.talk-title').click(function() {
+    var container = $(this).parent().parent();
+    container.children('.talk-description').slideToggle('slow', function() {
+        var icon = container.children('.talk-expand-icon');
+        if (icon.hasClass('icon-flip-vertical')) {
+            icon.removeClass('icon-flip-vertical');
+        } else {
+            icon.addClass('icon-flip-vertical');
+        }
+    });
+});
+
+// Days trigger
+$('.day-trigger').click(function() {
+    if(!$(this).hasClass('day-active')) {
+        $('.day-active').removeClass('day-active');
+
+        var day = $(this).attr('day');
+        $('div[day="'+day+'"]').addClass('day-active');
+    }
+});

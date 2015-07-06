@@ -19,7 +19,7 @@
     &:hover h2 {
         color: darken($primary-green, 10%);
     }
-    &:active{
+    &.day-active{
         background-color: $primary-green;
         h2 {
             color: white;
@@ -34,6 +34,7 @@
     margin: 0 auto;
     padding: 100px 0;
     overflow: auto;
+    display: none;
     &::after {
         content: '';
         position: absolute;
@@ -43,6 +44,9 @@
         top: 70px;
         left: 50px;
         z-index: 0;
+    }
+    &.day-active {
+        display: block;
     }
 }
 .day, .night, .food {
@@ -87,6 +91,9 @@
 
 .timeline-talk {
     margin-bottom: 40px;
+    // padding-bottom: 10px;
+    position: relative;
+    // background-color: blue;
     .speaker-thumb {
         width: 100px;
         height: 100px;
@@ -128,27 +135,38 @@
     /*color: ;*/
     /*font-family: ;*/
     margin-top: 0;
+    display: none;
 }
 
 .food-event {
     background-color: lighten($dark-grey, 50%);
-    padding: 20px 0;
+    padding: 15px 0;
     position: relative;
     color: lighten($dark-grey, 10%);
     margin: 20px 0;
     text-align: center;
     span {
-        font-weight: bold;
+        font-weight: normal;
         font-size: 1.7em;
     }
     i {
-        font-size: 2.7em;
+        font-size: 2.5em;
     }
 }
 .food {
     left: 36px;
-    top: 19px ;
+    top: 15px ;
     bottom: 0;
+}
+
+.talk-expand-icon {
+    position: absolute;
+    display: block;
+    text-align: center;
+    // background-color: green;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 @media screen and (max-width: 850px) {
