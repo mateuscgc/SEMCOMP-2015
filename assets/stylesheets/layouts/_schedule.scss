@@ -76,6 +76,7 @@
     position: relative;
     font-size: 25px;
     color: $dark-grey;
+    text-align: left;
     &::after {
         content: '';
         position: absolute;
@@ -85,7 +86,7 @@
         z-index: 1;
         bottom: 25px;
         top: 25px;
-        left: 40px;
+        left: 41px;
     }
 }
 

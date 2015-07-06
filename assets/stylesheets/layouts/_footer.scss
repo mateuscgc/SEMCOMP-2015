@@ -1,0 +1,13 @@
+.footer {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: $light-grey;
+    .social-networks-home>a>i {color: $dark-grey;}
+    h4 {margin: 25px 0px 10px 0px; color: $dark-grey;}
+    .logo-info{
+        width: 120px;
+    }
+    .description-info{text-align: justify; margin: 0;}
+}
