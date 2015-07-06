@@ -1,0 +1,210 @@
+.day-trigger {
+    text-align: center;
+    border: 2px solid $primary-green;
+    padding: 25px 0;
+    margin: -2px -2px 0 0;
+    position: relative;
+    cursor: pointer;
+    h2 {
+        font-size: 2.7em;
+        color: $primary-green;
+        margin: 0;
+        padding-bottom: 0px;
+        line-height: 1em;
+    }
+    span {
+        font-size: 1.3em;
+        color: $dark-grey;
+    }
+    &:hover h2 {
+        color: darken($primary-green, 10%);
+    }
+    &.day-active{
+        background-color: $primary-green;
+        h2 {
+            color: white;
+        }
+    }
+}
+
+
+.daily-schedule {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+    overflow: auto;
+    display: none;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        border: 1px dashed lighten($dark-grey, 20%);
+        bottom: 50px;
+        top: 70px;
+        left: 50px;
+        z-index: 0;
+    }
+    &.day-active {
+        display: block;
+    }
+}
+.day, .night, .food {
+    font-size: 4em;
+    position: absolute;
+    z-index: 1;
+    color: lighten($dark-grey, 20%);
+}
+.day {
+    left: 23px;
+    top: 20px;
+}
+.night {
+    bottom: 0;
+    left: 33px;
+}
+
+.timeline-event {
+    width: 100%;
+    overflow: auto;
+    padding-left: 75px;
+}
+
+.time-title {
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    font-size: 25px;
+    color: $dark-grey;
+    text-align: left;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        border-radius: 100%;
+        background-color: $primary-green;
+        z-index: 1;
+        bottom: 25px;
+        top: 25px;
+        left: 41px;
+    }
+}
+
+.timeline-talk {
+    margin-bottom: 40px;
+    // padding-bottom: 10px;
+    position: relative;
+    // background-color: blue;
+    .speaker-thumb {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        float: left;
+        border: 3px solid $primary-green;
+        margin-top: 30px;
+    }
+}
+
+
+.talk-details {
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    padding-top: 30px;
+    .talk-place {
+        display: inline-block;
+        float: left;
+        margin: 0 8px;
+        font-size: 1.1em;
+        line-height: 22px;
+    }
+    .talk-title {
+        padding-left: 15px;
+        width: 100%;
+        text-align: left;
+        float: right;
+        margin: 10px 0 10px 0;
+        cursor: pointer;
+        color: darken($dark-grey, 10%);
+        &:hover {
+            color: darken($primary-green, 15%);
+        }
+    }
+}
+
+.talk-description {
+    /*color: ;*/
+    /*font-family: ;*/
+    margin-top: 0;
+    display: none;
+}
+
+.food-event {
+    background-color: lighten($dark-grey, 50%);
+    padding: 15px 0;
+    position: relative;
+    color: lighten($dark-grey, 10%);
+    margin: 20px 0;
+    text-align: center;
+    span {
+        font-weight: normal;
+        font-size: 1.7em;
+    }
+    i {
+        font-size: 2.5em;
+    }
+}
+.food {
+    left: 36px;
+    top: 15px ;
+    bottom: 0;
+}
+
+.talk-expand-icon {
+    position: absolute;
+    display: block;
+    text-align: center;
+    // background-color: green;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .daily-schedule {
+        width: 100%;
+        &::after {
+            left: 27px;
+        }
+    }
+    .timeline-event {
+        padding-left: 47px;
+    }
+    .time-title::after {
+        left: 17px;
+    }
+    .timeline-talk {
+        padding-left: 35px;
+        .speaker-thumb {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .talk-details {
+        padding-top: 30px;
+        .talk-title {
+            font-size: 1.5em;
+        }
+    }
+    .day {
+        left: 0;
+    }
+    .night {
+        left: 10px;
+    }
+    .food {
+        left: 13px;
+    }
+}
+
+

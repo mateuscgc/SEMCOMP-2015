@@ -15,3 +15,8 @@
     -o-transform: $value;
     transform: $value
 }
+
+@mixin rotate($angle) {
+-webkit-transform: rotate($angle);
+        transform: rotate($angle);
+}

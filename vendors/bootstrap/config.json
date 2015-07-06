@@ -383,10 +383,11 @@
   "css": [
     "grid.less",
     "responsive-utilities.less",
-    "responsive-embed.less"
+    "responsive-embed.less",
+    "tooltip.less"
   ],
   "js": [
     "tooltip.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c4c0089076626591ef0a"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=de0c22fc3bb05a3537d2"
 }

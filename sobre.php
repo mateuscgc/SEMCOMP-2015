@@ -12,7 +12,7 @@
             </div>
         </header>
         <main>
-            <section class="content">
+            <section class="content overlay-content">
                <div class="col-md-6">
                 <div class="embed-responsive embed-responsive-16by9
                    ">
