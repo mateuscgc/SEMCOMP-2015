@@ -12,7 +12,7 @@
             </div>
         </header>
         <main>
-            <section class="content">
+            <section class="content overlay-content">
                 <form class="contact-form">
                     <label for=""><i class="fa fa-user rotate"></i></label>
                     <input type="text" placeholder="Nome">
