@@ -13,15 +13,15 @@
         </header>
         <main>
             <section class="content overlay-content">
-                <form class="contact-form">
+                <form class="contact-form" action="controllers/mail.php" method="POST">
                     <label for=""><i class="fa fa-user rotate"></i></label>
-                    <input type="text" placeholder="Nome">
+                    <input type="text" name="name" placeholder="Nome">
                     <label for=""><i class="fa fa-envelope rotate"></i></label>
-                    <input type="text" placeholder="Email">
+                    <input type="text" name="email" placeholder="Email">
                     <label for=""><i class="fa fa-file rotate"></i></label>
-                    <input type="text" placeholder="Assunto">
+                    <input type="text" name="title" placeholder="Assunto">
                     <label class="message" for=""><i class="fa fa-comment rotate"></i></label>
-                    <textarea class="message" placeholder="Mensagem" ></textarea>
+                    <textarea class="message" name="message" placeholder="Mensagem" ></textarea>
                     <button class="btn btn-form">Enviar</button>
                 </form>
             </section>
