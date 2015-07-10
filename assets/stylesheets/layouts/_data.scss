@@ -10,6 +10,8 @@
 .data-unit {
     text-align: center;
     h1 {
+        display: inline-flex;
+        display: -webkit-inline-flex;
         font-size: 6em;
         margin: 10px 0 0 0;
         height: 80px;

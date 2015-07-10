@@ -15,5 +15,6 @@
         </div>
 </footer>
 <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
+<script src="vendors/jquery/jquery-numscroller-1.0.js"></script>
 <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/application.js"></script>

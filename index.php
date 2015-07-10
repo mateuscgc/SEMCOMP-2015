@@ -86,19 +86,19 @@
             <div class="bg-test"></div>
             <div class="content">
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1>4</h1>
+                    <h1><div class="numscroller" data-max="4" data-min="0" data-increment="1" data-delay="2">4</div></h1>
                     <h3>Dias</h3>
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1>30+</h1>
+                    <h1><div class="numscroller" data-max="30" data-min="0" data-increment="1" data-delay="2">30</div>+</h1>
                     <h3>Palestras</h3>
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1>30+</h1>
+                    <h1><div class="numscroller" data-max="30" data-min="0" data-increment="1" data-delay="2">30</div>+</h1>
                     <h3>Horas</h3>
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1>6</h1>
+                    <h1><div class="numscroller" data-max="6" data-min="0" data-increment="1" data-delay="2">6</div></h1>
                     <h3>Cursos</h3>
                 </div>
                 <div class="data-actions">
