@@ -5,16 +5,17 @@
         <ul>
             <li class="nav"><a href="index.php">HOME</a></li>
             <li class="nav"><a href="sobre.php">A SEMCOMP</a></li>
-            <li class="nav" id="dropdown"><a href="programacao.php">PROGRAMAÇÃO <i class="fa fa-chevron-down rotate"></i></a>
-                <ul class="programming">
-                    <li class="btn-programming"><i class="fa fa-table rotate"></i><p> HORÁRIOS</p></li>
-                    <li class="btn-programming"><i class="fa fa-trophy rotate"></i><p> MARATONA</p></li>
-                    <li class="btn-programming"><i class="fa fa-briefcase rotate"></i><p> STARTUPS</p></li>
-                    <li class="btn-programming"><i class="fa fa-gamepad rotate"></i><p> GAMES</p></li>
-                </ul>
+            <li class="nav" id="dropdown"><a>PROGRAMAÇÃO <i class="fa fa-chevron-down"></i></a>
             </li>
             <li class="nav"><a href="contact.php">CONTATO</a></li>
-            <li class="nav rotate"><a href="">INSCREVA-SE</a></li>
+            <li class="nav"><a href="">INSCREVA-SE</a></li>
         </ul>
     </div>
+    <ul class="programming">
+        <li class="btn-programming">PROGRAMAÇÃO GERAL</li>
+        <li class="btn-programming">MINICURSOS</li>
+        <li class="btn-programming">MARATONA DE PROGRAMAÇÃO</li>
+        <li class="btn-programming">STARTUPS</li>
+        <li class="btn-programming">CALL FOR PAPERS</li>
+    </ul>
 </nav>

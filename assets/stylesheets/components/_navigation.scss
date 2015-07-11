@@ -4,7 +4,8 @@ nav{
     width: 100%;
     height: $navheigth;
     z-index: 999;
-    padding: 30px 0px;
+    padding: 0px;
+    background-color: transparent;
 
     @include transition(background 0.2s linear 0s,height 0.2s linear 0s);
 
@@ -13,6 +14,7 @@ nav{
         max-width: 1450px;
         margin: 0 auto;
         height: 100%;
+        padding: 20px 0px;
     }
     #toggle{float: right; padding: 20px; cursor: pointer;}
     .logo{
@@ -44,10 +46,11 @@ nav{
     }
     &.fixed-nav {
         position: fixed;
-        height: $navheigth - 70px;
-        padding: 10px 0;
-        background-color: rgba(white, .95);
-        /*display: none;*/
+        height: $navheigth - 50px;
+        background-color: rgba(white, .95)!important;
+        .nav-wrapper {
+            padding: 10px 0;
+        }
         li {
             padding: 5px 10px;
             a {
@@ -60,25 +63,26 @@ nav{
     padding:  0 auto 0 auto;
     text-align: center;
     display: none;
-    position: fixed;
     top: $navheigth;
     left: 0px;
     width: 100%;
-    height: 130px;
+    height: 140px;
+    margin-top: 0px;
     li{
-        height: 80%;
-        margin: 10px 0px;
-        width: 24%;
-        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        float: left;
+        height: 100%;
+        width: 20%;
+        text-align: left;
         color: white;
-        p{font-size: 0.7em;}
-        i{width: 100%; font-size: 1.2em;}
-
+        background-color: black;
     }
-    li:first-child{background-color: $dark-grey;}
+    li:first-child{background-image: url(../images/bg-aboutus.jpg);}
     li:nth-child(2){background-color: $primary-green;}
     li:nth-child(3){background-color: $light-grey;}
     li:nth-child(4){background-color: $light-orange;}
+    li:nth-child(5){background-color: $primary-green;}
 }
 .rotate{
     -webkit-transition: -webkit-transform .2s ease-in-out;

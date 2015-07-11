@@ -1,8 +1,8 @@
 <footer class="footer">
         <div class="social-networks social-networks-home">
-            <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="icon-facebook rotate"></i></a>
-            <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="icon-youtube rotate"></i></a>
-            <a ><i class="icon-envelope rotate"></i></a>
+            <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="icon-facebook"></i></a>
+            <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="icon-youtube"></i></a>
+            <a href="https://twitter.com/Semcompufba" target="_blank"><i class="icon-twitter"></i></a>
         </div>
         <h4>Realização</h4>
         <div class="col-lg-2 col-lg-offset-4">

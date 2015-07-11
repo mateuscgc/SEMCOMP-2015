@@ -4,17 +4,6 @@ var mainOffset;
 // Menu
 $(document).ready(function(){
     var i = 0;
-    var j = 0;
-    var z = 0;
-    $('#dropdown').click(function () {
-        if (j == 0){
-            $('.programming').slideDown("slow");
-            j = 1;
-        } else {
-            $('.programming').slideUp("slow");
-            j = 0;
-        }
-    });
     $('#toggle').click(function() {
         if (i == 0){
             $('nav>ul').addClass("show");
@@ -30,11 +19,21 @@ $(document).ready(function(){
     mainOffset = $('main').offset().top;
 });
 
+// Dropdown programação
+$('#dropdown, .programming').hover(function(){
+    $('.programming').stop().slideDown(300);
+    $('nav:not(.fixed-nav)').css('background-color', 'rgba(0, 0, 0, .7)');
+}, function(){
+    $('.programming').stop().slideUp(300);
+    $('nav:not(.fixed-nav)').css('background-color', 'transparent');
+});
+
 $(window).scroll(function(){
     if ($(this).scrollTop() > 20) {
         $('nav').addClass('fixed-nav');
     } else {
         $('nav').removeClass('fixed-nav')
+        $('nav:not(.fixed-nav)').css('background-color', 'transparent');
     }
 });
 

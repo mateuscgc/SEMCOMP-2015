@@ -13,9 +13,9 @@
         <div class="overlay">
             <?php require_once('includes/navigation.inc');?>
             <div class="social-networks social-networks-home">
-                <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="icon-facebook rotate"></i></a>
-                <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="icon-youtube rotate"></i></a>
-                <a ><i class="icon-envelope rotate"></i></a>
+                <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="icon-youtube"></i></a>
+                <a href="https://twitter.com/Semcompufba" target="_blank"><i class="icon-twitter"></i></a>
             </div>
             <div class="intro-wrapper">
                 <span class="semcomp-presents">Apresentamos a 5ª Edição da Maior Semana da Computação do Brasil</span>
