@@ -1,3 +1,6 @@
+// Global Variables
+var mainOffset;
+
 // Menu
 $(document).ready(function(){
     var i = 0;
@@ -22,12 +25,16 @@ $(document).ready(function(){
         }
     });
 });
-$(window).bind('mousewheel', function(event) {
-    if (event.originalEvent.wheelDelta >= 0) {
-         $('nav').addClass("animation-menu");
-    }
-    else {
-        $('nav').removeClass("animation-menu");
+
+$(document).ready(function(){
+    mainOffset = $('main').offset().top;
+});
+
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 20) {
+        $('nav').addClass('fixed-nav');
+    } else {
+        $('nav').removeClass('fixed-nav')
     }
 });
 

@@ -1,42 +1,60 @@
 nav{
-    -webkit-box-shadow:0px 2px 2px $dark-orange;
-       -moz-box-shadow:0px 2px 2px $dark-orange;
-            box-shadow:0px 2px 2px $dark-orange;
-
-    position: fixed;
-    background-color: white;
+    position: absolute;
+    top: 0;
     width: 100%;
     height: $navheigth;
     z-index: 999;
+    padding: 30px 0px;
+
+    @include transition(background 0.2s linear 0s,height 0.2s linear 0s);
+
+    .nav-wrapper {
+        width: 90%;
+        max-width: 1450px;
+        margin: 0 auto;
+        height: 100%;
+    }
     #toggle{float: right; padding: 20px; cursor: pointer;}
     .logo{
-        padding: 10px;
         height: 100%;
         float: left;
         img{height: 100%;}
     }
     ul {
-        background-color: white;
         display: block;
         margin: 0px;
         padding: 0px;
         float: right;
-        li{
-            cursor: pointer;
-            background-color: white;
+        li {
             margin: auto;
-            height: 100%;
-            padding: 17px 10px;
+            padding: 20px 10px;
             display: inline-block;
             height: 100%;
-        }
-        li:hover{
-            color: $dark-orange;
+            a{
+                color: white;
+                cursor: pointer;
+                &:hover {
+                    color: $primary-green;
+                    text-decoration: none;
+                }
+            }
         }
         .bg1{color: $primary-green;}
         #dropdown{cursor: pointer;}
     }
-
+    &.fixed-nav {
+        position: fixed;
+        height: $navheigth - 70px;
+        padding: 10px 0;
+        background-color: rgba(white, .95);
+        /*display: none;*/
+        li {
+            padding: 5px 10px;
+            a {
+                color: $dark-grey;
+            }
+        }
+    }
 }
 .programming{
     padding:  0 auto 0 auto;
@@ -74,7 +92,7 @@ nav{
     padding-top: 10px;
     ul>li>ul{padding-top: 10px;}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     nav {
         ul {
             display: none;
@@ -89,6 +107,6 @@ nav{
         li{display: inline-block;}
     }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 901px) {
     #toggle{display:none;}
 }
