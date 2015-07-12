@@ -20,20 +20,20 @@ $(document).ready(function(){
 });
 
 // Dropdown programação
-$('#dropdown, .programming').hover(function(){
+$('.dropdown').hover(function(){
     $('.programming').stop().slideDown(300);
-    $('nav:not(.fixed-nav)').css('background-color', 'rgba(0, 0, 0, .7)');
+    $('nav').addClass('slide-down');
 }, function(){
-    $('.programming').stop().slideUp(300);
-    $('nav:not(.fixed-nav)').css('background-color', 'transparent');
+    $('.programming').stop().slideUp(300, function(){
+        $('nav').removeClass('slide-down');
+    });
 });
 
 $(window).scroll(function(){
     if ($(this).scrollTop() > 20) {
         $('nav').addClass('fixed-nav');
     } else {
-        $('nav').removeClass('fixed-nav')
-        $('nav:not(.fixed-nav)').css('background-color', 'transparent');
+        $('nav').removeClass('fixed-nav');
     }
 });
 
