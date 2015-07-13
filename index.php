@@ -8,14 +8,14 @@
 <body>
     <header class="home-header">
         <video class="home-bg-video" autoplay loop>
-            <source src="https://hrcdn.net/videos/hr_20mb.webm" type="video/webm">
+            <!-- <source src="https://hrcdn.net/videos/hr_20mb.webm" type="video/webm"> -->
         </video>
         <div class="overlay">
             <?php require_once('includes/navigation.inc');?>
             <div class="social-networks social-networks-home">
-                <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="icon-facebook"></i></a>
-                <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="icon-youtube"></i></a>
-                <a href="https://twitter.com/Semcompufba" target="_blank"><i class="icon-twitter"></i></a>
+                <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/Semcompufba" target="_blank"><i class="fa fa-twitter"></i></a>
             </div>
             <div class="intro-wrapper">
                 <span class="semcomp-presents">Apresentamos a 5ª Edição da Maior Semana da Computação do Brasil</span>
@@ -23,7 +23,7 @@
                 <h2 class="semcomp-date">02 a 05 de Setembro</h2>
                 <span class="semcomp-local">Escola Politécnica da UFBA</span>
             </div>
-            <button class="btn btn-nobg-green btn-home-video">Quem Vai<i class="icon-chevron-down"></i></button>
+            <button class="btn btn-nobg-green btn-home-video">Quem Vai<i class="fa fa-chevron-down"></i></button>
         </div>
     </header>
     <main>

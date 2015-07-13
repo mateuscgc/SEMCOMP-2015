@@ -29,6 +29,7 @@ $('.dropdown').hover(function(){
     });
 });
 
+// Fixed Menu
 $(window).scroll(function(){
     if ($(this).scrollTop() > 20) {
         $('nav').addClass('fixed-nav');
@@ -47,10 +48,10 @@ $('.talk-title').click(function() {
     var container = $(this).parent().parent();
     container.children('.talk-description').slideToggle('slow', function() {
         var icon = container.children('.talk-expand-icon');
-        if (icon.hasClass('icon-flip-vertical')) {
-            icon.removeClass('icon-flip-vertical');
+        if (icon.hasClass('fa-flip-vertical')) {
+            icon.removeClass('fa-flip-vertical');
         } else {
-            icon.addClass('icon-flip-vertical');
+            icon.addClass('fa-flip-vertical');
         }
     });
 });
