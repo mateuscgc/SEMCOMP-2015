@@ -19,6 +19,7 @@ nav{
         height: 100%;
         width: auto;
         padding: 10px 0;
+        float: left;
     }
     .logo-svg-change {
         fill: white;
@@ -26,26 +27,39 @@ nav{
     .logo-svg-title {
         transform: translateY(0px);
     }
-    #toggle{float: right; padding: 20px; cursor: pointer;}
+    #toggle {
+        float: right;
+        padding: 30px 20px;
+        cursor: pointer;
+
+        font-size: 1.7em;
+        line-height: 0;
+        color: white;
+    }
     .link-list {
         display: block;
         margin: 0px;
         padding: 0px;
         float: right;
-        li {
-            margin: auto;
-            padding: 40px 10px;
-            display: inline-block;
-            height: 100%;
-            a{
-                color: white;
-                cursor: pointer;
-                &:hover {
-                    color: $primary-green;
-                    text-decoration: none;
+        a{
+            color: white;
+            cursor: pointer;
+            &:hover {
+                color: $primary-green;
+                text-decoration: none;
+            }
+            li {
+                margin: auto;
+                padding: 40px 10px;
+                display: inline-block;
+                height: 100%;
+
+                &.links-responsive {
+                    display: none;
                 }
             }
         }
+
         .bg1{color: $primary-green;}
         #dropdown{cursor: pointer;}
     }
@@ -53,15 +67,10 @@ nav{
         position: fixed;
         height: $navheigth - 50px;
         background-color: rgba(white, .95)!important;
-        .link-list li {
-            padding: 15px 10px;
-            a {
-                color: $dark-grey;
-            }
-        }
+
         .logo-svg {
             padding: 0;
-            height: 130%;
+            /*height: 130%;*/
             width: 200px;
         }
         .logo-svg-change {
@@ -69,10 +78,23 @@ nav{
         }
         .logo-svg-title{
             height: 100%;
-            transform: translateX(-40px);
+            transform: translate(-40px, 10px);
         }
         .logo-svg-hidden, g {
             display: none;
+        }
+        #toggle {
+            padding: 13px 20px;
+            color: $dark-grey;
+        }
+        .link-list a {
+                color: $dark-grey;
+                &:hover {
+                    color: $primary-green;
+                }
+            li {
+                padding: 15px 10px;
+            }
         }
     }
     &.slide-down {
@@ -101,7 +123,6 @@ nav{
         &:nth-child(1) {
             @include color-over-image(url(../images/geral.jpg), top, rgba(black, .3), rgba(black, .3));
             background-position: bottom;
-            /*background-image: url(../images/geral.jpg);*/
             @extend %bg-cover-center;
             &:hover {
                 @include color-over-image(url(../images/geral.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
@@ -152,23 +173,42 @@ nav{
 }
 @media screen and (max-width: 900px) {
     nav {
+        &.menu-down {
+            background-color: rgba(black, .7);
+        }
         .nav-wrapper {
-            width: 95%;
+            width: 100%;
         }
         .logo-svg {
-            padding: 15px 0;
+            padding: 15px 0 15px 10px;
         }
-        ul {
+        .link-list {
             display: none;
             width: 100%;
-            li {display: block;}
+            background-color: rgba(black, .8);
+            a {
+                color: lighten($dark-grey, 20%);
+                li {
+                    display: block;
+                    height: 50px;
+                    padding: 0 0 0 15px!important;
+                    line-height: 50px;
+
+                    &.dropdown {
+                        display: none;
+                    }
+                    &.links-responsive {
+                        display: block;
+                    }
+                }
+            }
+        }
+        &.fixed-nav .link-list a {
+            color: lighten($dark-grey, 20%);
         }
     }
     .programming{
-        position: relative;
-        top: inherit;
-        height: auto;
-        li{display: inline-block;}
+        display: none;
     }
 }
 @media screen and (min-width: 901px) {

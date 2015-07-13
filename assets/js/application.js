@@ -2,25 +2,21 @@
 var mainOffset;
 
 // Menu
-$(document).ready(function(){
-    var i = 0;
-    $('#toggle').click(function() {
-        if (i == 0){
-            $('nav>ul').addClass("show");
-            i++;
-        } else {
-            $('nav>ul').removeClass("show");
-            i = 0;
-        }
-    });
-});
 
+$('#toggle').click(function() {
+    if ($('nav').hasClass('menu-down')) {
+        $('nav').removeClass('menu-down');
+    } else {
+        $('nav').addClass('menu-down');
+    }
+    $('.link-list').stop().slideToggle(300);
+});
 $(document).ready(function(){
     mainOffset = $('main').offset().top;
 });
 
 // Dropdown programação
-$('.dropdown').hover(function(){
+$('.dropdown, .programming').hover(function(){
     $('.programming').stop().slideDown(300);
     $('nav').addClass('slide-down');
 }, function(){
