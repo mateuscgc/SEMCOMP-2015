@@ -1,6 +1,7 @@
 <nav>
     <div class="nav-wrapper">
-       <div class="logo"><img src="assets/images/marca_semcomp_2015_horizontal_colorida_fundo-escuro.png"alt=""></div>
+       <!-- <div class="logo"><img src="assets/images/marca_semcomp_2015_horizontal_colorida_fundo-escuro.png"alt=""></div> -->
+       <?php echo file_get_contents('assets/images/marca_semcomp_2015.svg'); ?>
        <button id="toggle" class="btn btn-menu"><i class="fa fa-bars"></i></button>
         <ul class="link-list">
             <li><a href="index.php">HOME</a></li>

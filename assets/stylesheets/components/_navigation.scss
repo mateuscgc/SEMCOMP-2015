@@ -15,13 +15,18 @@ nav{
         margin: 0 auto;
         height: 100%;
     }
-    #toggle{float: right; padding: 20px; cursor: pointer;}
-    .logo{
+    .logo-svg {
         height: 100%;
-        float: left;
-        padding: 20px 0px;
-        img{height: 100%;}
+        width: auto;
+        padding: 10px 0;
     }
+    .logo-svg-change {
+        fill: white;
+    }
+    .logo-svg-title {
+        transform: translateY(0px);
+    }
+    #toggle{float: right; padding: 20px; cursor: pointer;}
     .link-list {
         display: block;
         margin: 0px;
@@ -53,6 +58,21 @@ nav{
             a {
                 color: $dark-grey;
             }
+        }
+        .logo-svg {
+            padding: 0;
+            height: 130%;
+            width: 200px;
+        }
+        .logo-svg-change {
+            fill: black;
+        }
+        .logo-svg-title{
+            height: 100%;
+            transform: translateX(-40px);
+        }
+        .logo-svg-hidden, g {
+            display: none;
         }
     }
     &.slide-down {
@@ -117,6 +137,7 @@ nav{
         }
     }
 }
+
 .rotate{
     -webkit-transition: -webkit-transform .2s ease-in-out;
                     transition: transform .2s ease-in-out;
@@ -131,6 +152,12 @@ nav{
 }
 @media screen and (max-width: 900px) {
     nav {
+        .nav-wrapper {
+            width: 95%;
+        }
+        .logo-svg {
+            padding: 15px 0;
+        }
         ul {
             display: none;
             width: 100%;
@@ -147,3 +174,4 @@ nav{
 @media screen and (min-width: 901px) {
     #toggle{display:none;}
 }
+
