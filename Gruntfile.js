@@ -10,30 +10,31 @@ module.exports = function(grunt) {
                 }
             }
         },
-        autoprefixer: {
-            options: {
-                browsers: ['last 2 versions']
-            },
-            dist {
-                files: {
-                    'assets/stylesheets/application.css' : 'assets/stylesheets/application.css'
-                },
-            },
-        },
         cssmin: {
             options: {
                 sourceMap: true
             },
             target: {
                 files: {
-                    'assests/stylesheets/application.min.css' : ['assests/stylesheets/application.css']
+                    'assets/stylesheets/application.css' : ['assets/stylesheets/application.css']
                 },
             },
         },
+        autoprefixer: {
+            options: {
+                browsers: ['last 2 versions']
+            },
+            dist: {
+                files: {
+                    'assets/stylesheets/application.css' : 'assets/stylesheets/application.css'
+                },
+            },
+        },
+
         watch: {
             stylesheets: {
-                files: [assets/stylesheets/**/*.scss],
-                tasks: ['sass', 'autoprefixer', 'cssmin'],
+                files: ['assets/stylesheets/**/*.scss'],
+                tasks: ['sass', 'cssmin', 'autoprefixer'],
             },
         },
     });
