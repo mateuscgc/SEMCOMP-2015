@@ -10,16 +10,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-        cssmin: {
-            options: {
-                sourceMap: true
-            },
-            target: {
-                files: {
-                    'assets/stylesheets/application.css' : ['assets/stylesheets/application.css']
-                },
-            },
-        },
         autoprefixer: {
             options: {
                 browsers: ['last 2 versions']
@@ -30,11 +20,20 @@ module.exports = function(grunt) {
                 },
             },
         },
-
+        cssmin: {
+            options: {
+                sourceMap: true
+            },
+            target: {
+                files: {
+                    'assets/stylesheets/application.css' : ['assets/stylesheets/application.css']
+                },
+            },
+        },
         watch: {
             stylesheets: {
                 files: ['assets/stylesheets/**/*.scss'],
-                tasks: ['sass', 'cssmin', 'autoprefixer'],
+                tasks: ['sass', 'autoprefixer', 'cssmin'],
             },
         },
     });
