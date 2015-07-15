@@ -1,33 +1,36 @@
+// Global Variables
+var mainOffset;
+
 // Menu
+
+$('#toggle').click(function() {
+    if ($('nav').hasClass('menu-down')) {
+        $('nav').removeClass('menu-down');
+    } else {
+        $('nav').addClass('menu-down');
+    }
+    $('.link-list').stop().slideToggle(300);
+});
 $(document).ready(function(){
-    var i = 0;
-    var j = 0;
-    var z = 0;
-    $('#dropdown').click(function () {
-        if (j == 0){
-            $('.programming').slideDown("slow");
-            j = 1;
-        } else {
-            $('.programming').slideUp("slow");
-            j = 0;
-        }
-    });
-    $('#toggle').click(function() {
-        if (i == 0){
-            $('nav>ul').addClass("show");
-            i++;
-        } else {
-            $('nav>ul').removeClass("show");
-            i = 0;
-        }
+    mainOffset = $('main').offset().top;
+});
+
+// Dropdown programação
+$('.dropdown, .programming').hover(function(){
+    $('.programming').stop().slideDown(300);
+    $('nav').addClass('slide-down');
+}, function(){
+    $('.programming').stop().slideUp(300, function(){
+        $('nav').removeClass('slide-down');
     });
 });
-$(window).bind('mousewheel', function(event) {
-    if (event.originalEvent.wheelDelta >= 0) {
-         $('nav').addClass("animation-menu");
-    }
-    else {
-        $('nav').removeClass("animation-menu");
+
+// Fixed Menu
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 20) {
+        $('nav').addClass('fixed-nav');
+    } else {
+        $('nav').removeClass('fixed-nav');
     }
 });
 
@@ -41,10 +44,10 @@ $('.talk-title').click(function() {
     var container = $(this).parent().parent();
     container.children('.talk-description').slideToggle('slow', function() {
         var icon = container.children('.talk-expand-icon');
-        if (icon.hasClass('icon-flip-vertical')) {
-            icon.removeClass('icon-flip-vertical');
+        if (icon.hasClass('fa-flip-vertical')) {
+            icon.removeClass('fa-flip-vertical');
         } else {
-            icon.addClass('icon-flip-vertical');
+            icon.addClass('fa-flip-vertical');
         }
     });
 });

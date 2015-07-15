@@ -1,18 +1,26 @@
 <nav>
-   <div class="logo"><img src="assets/images/logo.png" alt=""></div>
-   <button id="toggle" class="btn btn-menu"><i class="fa fa-bars"></i></button>
-    <ul>
-        <li class="nav"><a href="index.php">HOME</a></li>
-        <li class="nav"><a href="sobre.php">A SEMCOMP</a></li>
-        <li class="nav" id="dropdown"><a href="programacao.php">PROGRAMAÇÃO <i class="fa fa-chevron-down rotate"></i>
-            <ul class="programming">
-                <li class="btn-programming"><i class="fa fa-table rotate"></i><p> HORÁRIOS</p></li>
-                <li class="btn-programming"><i class="fa fa-trophy rotate"></i><p> MARATONA</p></li>
-                <li class="btn-programming"><i class="fa fa-briefcase rotate"></i><p> STARTUPS</p></li>
-                <li class="btn-programming"><i class="fa fa-gamepad rotate"></i><p> GAMES</p></li>
-            </ul>
-        </li>
-        <li class="nav"><a href="contact.php">CONTATO</a></li>
-        <li class="nav rotate"><a href="">INSCREVA-SE</a></li>
+    <div class="nav-wrapper">
+       <!-- <div class="logo"><img src="assets/images/marca_semcomp_2015_horizontal_colorida_fundo-escuro.png"alt=""></div> -->
+       <?php echo file_get_contents('assets/images/marca_semcomp_2015.svg'); ?>
+       <div id="toggle"><i class="fa fa-bars"></i></div>
+        <ul class="link-list">
+            <a href="index.php"><li>HOME</li></a>
+            <a href="sobre.php"><li>A SEMCOMP</li></a>
+            <a><li class="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down"></i></li></a>
+            <a href=""><li class="links-responsive">PROGRAMAÇÃO GERAL</li></a>
+            <a href=""><li class="links-responsive">MINICURSOS</li></a>
+            <a href=""><li class="links-responsive">MARATONA DE PROGRAMAÇÃO</li></a>
+            <a href=""><li class="links-responsive">PAINEL DE STARTUPS</li></a>
+            <a href=""><li class="links-responsive">CALL FOR PAPERS</li></a>
+            <a href="contact.php"><li>CONTATO</li></a>
+            <a href=""><li>INSCREVA-SE</li></a>
+        </ul>
+    </div>
+    <ul class="programming">
+        <li>PROGRAMAÇÃO GERAL</li>
+        <li>MINICURSOS</li>
+        <li>MARATONA DE PROGRAMAÇÃO</li>
+        <li>PAINEL DE STARTUPS</li>
+        <li>CALL FOR PAPERS</li>
     </ul>
 </nav>

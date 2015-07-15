@@ -1,67 +1,164 @@
 nav{
-    -webkit-box-shadow:0px 2px 2px $dark-orange;
-       -moz-box-shadow:0px 2px 2px $dark-orange;
-            box-shadow:0px 2px 2px $dark-orange;
-
-    position: fixed;
-    background-color: white;
+    position: absolute;
+    top: 0;
     width: 100%;
     height: $navheigth;
     z-index: 999;
-    #toggle{float: right; padding: 20px; cursor: pointer;}
-    .logo{
-        padding: 10px;
+    padding: 0px;
+    background-color: transparent;
+
+    @include transition(background 0.2s linear 0s,height 0.2s linear 0s);
+
+    .nav-wrapper {
+        width: 90%;
+        max-width: 1450px;
+        margin: 0 auto;
         height: 100%;
-        float: left;
-        img{height: 100%;}
     }
-    ul {
-        background-color: white;
+    .logo-svg {
+        height: 100%;
+        width: auto;
+        padding: 10px 0;
+        float: left;
+    }
+    .logo-svg-change {
+        fill: white;
+    }
+    .logo-svg-title {
+        transform: translateY(0px);
+    }
+    #toggle {
+        float: right;
+        padding: 30px 20px;
+        cursor: pointer;
+
+        font-size: 1.7em;
+        line-height: 0;
+        color: white;
+    }
+    .link-list {
         display: block;
         margin: 0px;
         padding: 0px;
         float: right;
-        li{
+        a{
+            color: white;
             cursor: pointer;
-            background-color: white;
-            margin: auto;
-            height: 100%;
-            padding: 17px 10px;
-            display: inline-block;
-            height: 100%;
+            &:hover {
+                color: $primary-green;
+                text-decoration: none;
+            }
+            li {
+                margin: auto;
+                padding: 40px 10px;
+                display: inline-block;
+                height: 100%;
+
+                &.links-responsive {
+                    display: none;
+                }
+            }
         }
-        li:hover{
-            color: $dark-orange;
-        }
+
         .bg1{color: $primary-green;}
         #dropdown{cursor: pointer;}
     }
+    &.fixed-nav {
+        position: fixed;
+        height: $navheigth - 50px;
+        background-color: rgba(white, .95)!important;
 
+        .logo-svg {
+            padding: 0;
+            /*height: 130%;*/
+            width: 200px;
+        }
+        .logo-svg-change {
+            fill: black;
+        }
+        .logo-svg-title{
+            height: 100%;
+            transform: translate(-40px, 10px);
+        }
+        .logo-svg-hidden, g {
+            display: none;
+        }
+        #toggle {
+            padding: 13px 20px;
+            color: $dark-grey;
+        }
+        .link-list a {
+                color: $dark-grey;
+                &:hover {
+                    color: $primary-green;
+                }
+            li {
+                padding: 15px 10px;
+            }
+        }
+    }
+    &.slide-down {
+        background-color: rgba(black, .7);
+    }
 }
 .programming{
-    padding:  0 auto 0 auto;
+    padding: 0px;
     text-align: center;
     display: none;
-    position: fixed;
     top: $navheigth;
     left: 0px;
     width: 100%;
-    height: 130px;
+    margin-top: 0px;
     li{
-        height: 80%;
-        margin: 10px 0px;
-        width: 24%;
-        text-align: center;
+        font-size: 1.1em;
+        font-weight: bold;
+        padding: 60px 25px;
+        display: block;
+        float: left;
+        height: 100%;
+        width: 20%;
+        text-align: left;
         color: white;
-        p{font-size: 0.7em;}
-        i{width: 100%; font-size: 1.2em;}
-
+        background-color: black;
+        &:nth-child(1) {
+            @include color-over-image(url(../images/geral.jpg), top, rgba(black, .3), rgba(black, .3));
+            background-position: bottom;
+            @extend %bg-cover-center;
+            &:hover {
+                @include color-over-image(url(../images/geral.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
+            }
+        }
+        &:nth-child(2) {
+            @include color-over-image(url(../images/minicursos.jpg), top, rgba(black, .3), rgba(black, .3));
+            @extend %bg-cover-center;
+            &:hover {
+                @include color-over-image(url(../images/minicursos.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
+            }
+        }
+        &:nth-child(3) {
+            @include color-over-image(url(../images/maratona.jpg), top, rgba(black, .3), rgba(black, .3));
+            @extend %bg-cover-center;
+            &:hover {
+                @include color-over-image(url(../images/maratona.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
+            }
+        }
+        &:nth-child(4) {
+            @include color-over-image(url(../images/startup.jpg), top, rgba(black, .3), rgba(black, .3));
+            @extend %bg-cover-center;
+            &:hover {
+                @include color-over-image(url(../images/startup.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
+            }
+        }
+        &:nth-child(5) {
+            @include color-over-image(url(../images/paper.jpg), top, rgba(black, .3), rgba(black, .3));
+            @extend %bg-cover-center;
+            &:hover {
+                @include color-over-image(url(../images/paper.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
+            }
+        }
     }
-    li:first-child{background-color: $dark-grey;}
-    li:nth-child(2){background-color: $primary-green;}
-    li:nth-child(3){background-color: $light-grey;}
-    li:nth-child(4){background-color: $light-orange;}
 }
+
 .rotate{
     -webkit-transition: -webkit-transform .2s ease-in-out;
                     transition: transform .2s ease-in-out;
@@ -74,21 +171,47 @@ nav{
     padding-top: 10px;
     ul>li>ul{padding-top: 10px;}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     nav {
-        ul {
+        &.menu-down {
+            background-color: rgba(black, .7);
+        }
+        .nav-wrapper {
+            width: 100%;
+        }
+        .logo-svg {
+            padding: 15px 0 15px 10px;
+        }
+        .link-list {
             display: none;
             width: 100%;
-            li {display: block;}
+            background-color: rgba(black, .8);
+            a {
+                color: lighten($dark-grey, 20%);
+                li {
+                    display: block;
+                    height: 50px;
+                    padding: 0 0 0 15px!important;
+                    line-height: 50px;
+
+                    &.dropdown {
+                        display: none;
+                    }
+                    &.links-responsive {
+                        display: block;
+                    }
+                }
+            }
+        }
+        &.fixed-nav .link-list a {
+            color: lighten($dark-grey, 20%);
         }
     }
     .programming{
-        position: relative;
-        top: inherit;
-        height: auto;
-        li{display: inline-block;}
+        display: none;
     }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 901px) {
     #toggle{display:none;}
 }
+

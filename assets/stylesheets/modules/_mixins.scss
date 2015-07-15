@@ -20,3 +20,11 @@
 -webkit-transform: rotate($angle);
         transform: rotate($angle);
 }
+
+@mixin color-over-image($image, $value...) {
+    background-image: linear-gradient($value), $image;
+    background-image: -moz-linear-gradient($value), $image;
+    background-image: -o-linear-gradient($value), $image;
+    background-image: -ms-linear-gradient($value), $image;
+    background-image: -webkit-linear-gradient($value), $image;
+}
