@@ -7,7 +7,7 @@ nav{
     padding: 0px;
     background-color: transparent;
 
-    @include transition(background 0.2s linear 0s,height 0.2s linear 0s);
+    transition: background 0.2s linear 0s,height 0.2s linear 0s;
 
     .nav-wrapper {
         width: 90%;
@@ -120,38 +120,34 @@ nav{
         text-align: left;
         color: white;
         background-color: black;
+        @extend %bg-cover-center;
         &:nth-child(1) {
             @include color-over-image(url(../images/geral.jpg), top, rgba(black, .3), rgba(black, .3));
             background-position: bottom;
-            @extend %bg-cover-center;
             &:hover {
                 @include color-over-image(url(../images/geral.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
             }
         }
         &:nth-child(2) {
             @include color-over-image(url(../images/minicursos.jpg), top, rgba(black, .3), rgba(black, .3));
-            @extend %bg-cover-center;
             &:hover {
                 @include color-over-image(url(../images/minicursos.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
             }
         }
         &:nth-child(3) {
             @include color-over-image(url(../images/maratona.jpg), top, rgba(black, .3), rgba(black, .3));
-            @extend %bg-cover-center;
             &:hover {
                 @include color-over-image(url(../images/maratona.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
             }
         }
         &:nth-child(4) {
             @include color-over-image(url(../images/startup.jpg), top, rgba(black, .3), rgba(black, .3));
-            @extend %bg-cover-center;
             &:hover {
                 @include color-over-image(url(../images/startup.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
             }
         }
         &:nth-child(5) {
             @include color-over-image(url(../images/paper.jpg), top, rgba(black, .3), rgba(black, .3));
-            @extend %bg-cover-center;
             &:hover {
                 @include color-over-image(url(../images/paper.jpg), top, rgba(darken($primary-green, 15%), .85), rgba(darken($primary-green, 15%), .85));
             }
@@ -164,7 +160,7 @@ nav{
                     transition: transform .2s ease-in-out;
 }
 .rotate:hover{
-    @include rotate(360deg);
+    transform: rotate(360deg);
 }
 .animation-menu{
     height: 90px;
