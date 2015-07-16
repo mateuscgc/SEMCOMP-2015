@@ -1,3 +1,4 @@
+// Está sendo usado o Autoprefixer no lugar das mixins de prefixo
 @mixin transition($value...) {
     -webkit-transition: $value;
     -o-transition: $value;

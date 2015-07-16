@@ -6,8 +6,8 @@
     border: none;
     border-radius: 8px;
 
-    @include transition(0.3s);
-    @include cubic-bezier(0.75, 0, 0.125, 1);
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 
     &::before {
         content: '';
@@ -22,14 +22,14 @@
         border-style: solid;
         opacity: 0;
 
-        @include transform(scale3d(1.2, 1.2, 1));
-        @include transition(transform 0.3s, opacity 0.3s);
-        @include cubic-bezier(0.75, 0, 0.125, 1);
+        transform: scale3d(1.2, 1.2, 1);
+        transition: transform 0.3s, opacity 0.3s;
+        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
     }
     &:hover::before {
         opacity: 1;
 
-        @include transform(scale3d(1, 1, 1));
+        transform: scale3d(1, 1, 1);
     }
     &:focus {
         outline: none;
