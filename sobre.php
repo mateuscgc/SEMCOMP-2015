@@ -25,6 +25,17 @@
                     <p>Uma grande diversidade de atividades marcaram esses 3 anos de SEMCOMP, além uma enorme carga de conhecimento compartilhado com os participantes através das palestras e cursos, foram realizados workshops, competição de startups, talk show, coding dojos e muito mais.</p>
                 </div>
             </section>
+            <section>
+                <div class="showimg1 col-sm-8"></div>
+                <div class="showimg2 col-sm-4"></div>
+                <div class="showimg3 col-sm-6"></div>
+                <div class="showimg4 col-sm-6"></div>
+                <div class="showimg5 col-sm-4"></div>
+                <div class="showimg6 col-sm-4"></div>
+                <div class="showimg7 col-sm-4"></div>
+                <div class="showimg8 col-sm-4"></div>
+                <div class="showimg9 col-sm-8"></div>
+            </section>
         </main>
         <?php require_once('includes/footer.inc');?>
     </body>
