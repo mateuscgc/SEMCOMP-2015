@@ -16,7 +16,7 @@
                 <div class="text-aboutus col-md-12">
                     <p>A SEMCOMP 2015 selecionará alguns palestrantes a partir de um call for papers, onde qualquer pessoa pode submeter palestras, se você tem bastante conhecimento em uma determina área e deseja compartilha-lo e ficar ainda mais conhecido, está é a sua oportunidade.</p>
                     <p class="sub-title">COMO SE INSCREVER?</p>
-                    <p>Os interessados devem enviar um e-mail até <b>8 (oito) de agosto de 2015 as 23:59</b> para <b>semcompufba@infojr.com.br</b> com as seguintes informações:</p>
+                    <p>Os interessados devem enviar um e-mail até <b>8 (oito) de agosto de 2015 as 23:59</b> para <b>contato@semcomp.com.br</b> com as seguintes informações:</p>
                 </div>
                 <div class="text-aboutus col-md-6">
                    <h3 class="sub-title"><i class="fa fa-user rotate"></i> DADOS PESSOAIS</h3>
