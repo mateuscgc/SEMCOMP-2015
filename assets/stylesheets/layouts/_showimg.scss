@@ -1,0 +1,11 @@
+$i: 1;
+@while $i < 10 {
+  .showimg#{$i} {
+      height: 300px;
+      overflow: hidden;
+      background-image: url("../images/exibithion#{$i}.jpg");
+      background-size: cover;
+      border: 2px solid white;
+  }
+  $i: $i + 1;
+}
