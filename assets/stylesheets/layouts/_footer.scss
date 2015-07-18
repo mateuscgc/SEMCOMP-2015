@@ -10,4 +10,9 @@
         width: 120px;
     }
     .description-info{text-align: justify; margin: 0;}
+    ul {
+        li{display: inline;}
+    }
+    a , a:visited{color: black;}
+    a:hover{color: $dark-grey;}
 }
