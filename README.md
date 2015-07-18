@@ -1,4 +1,5 @@
 # SEMCOMP-2015
+As informações contidas no projeto, como datas e valores não são necessariamente precisas, para saber as informações oficiais da SEMCOMP 2015 acesse o site www.semcomp.com.br ou nossá página no [Facebook](https://www.facebook.com/semanacomp).
 
 ## Configurando
 
