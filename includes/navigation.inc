@@ -1,34 +1,6 @@
 <?php
     $page = $_SERVER['REQUEST_URI'];
-    switch($page){
-        case '/semcomp-2015/index.php':
-            $active_li = 1;
-        break;
-        case '/semcomp-2015/sobre.php':
-            $active_li = 2;
-        break;
-        case '/semcomp-2015/programacao.php':
-            $active_li = 3;
-        break;
-        case '/semcomp-2015/NOMEDAPAG.php': //tem que ver o nome da página 
-            $active_li = 4;
-        break;
-        case '/semcomp-2015/NOMEDAPAG.php': //tem que ver o nome da página 
-            $active_li = 5;
-        break;
-        case '/semcomp-2015/NOMEDAPAG.php': //tem que ver o nome da página 
-            $active_li = 6;
-        break;
-        case '/semcomp-2015/call4papers.php':
-            $active_li = 7;
-        break;
-        case '/semcomp-2015/contato.php':
-            $active_li = 8;
-        break;
-        case '/semcomp-2015/participe.php':
-            $active_li = 9;
-        break;
-    }
+    $page = end(explode('/', $page));
 ?>
 <nav>
     <div class="nav-wrapper">
@@ -36,16 +8,16 @@
        <?php echo file_get_contents('assets/images/marca_semcomp_2015.svg'); ?>
        <div id="toggle"><i class="fa fa-bars"></i></div>
         <ul class="link-list">
-            <a href="index.php" class="<?php if($active_li == 1) echo "active"; ?>"><li>HOME</li></a>
-            <a href="sobre.php" class="<?php if($active_li == 2) echo "active"; ?>"><li>A SEMCOMP</li></a>
-            <a class="<?php if(($active_li >= 3) && ($active_li <= 7) ) echo "active"; ?>"><li class="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down"></i></li></a>
-            <a href="" class="<?php if($active_li == 3) echo "active"; ?>"><li class="links-responsive">PROGRAMAÇÃO GERAL</li></a>
-            <a href="" class="<?php if($active_li == 4) echo "active"; ?>"><li class="links-responsive">MINICURSOS</li></a>
-            <a href="" class="<?php if($active_li == 5) echo "active"; ?>"><li class="links-responsive">MARATONA DE PROGRAMAÇÃO</li></a>
-            <a href="" class="<?php if($active_li == 6) echo "active"; ?>"><li class="links-responsive">PAINEL DE STARTUPS</li></a>
-            <a href="" class="<?php if($active_li == 7) echo "active"; ?>"><li class="links-responsive">CALL FOR PAPERS</li></a>
-            <a href="contato.php" class="<?php if($active_li == 8) echo "active"; ?>"><li>CONTATO</li></a>
-            <a href="" class="<?php if($active_li == 9) echo "active"; ?>"><li>INSCREVA-SE</li></a>
+            <a href="index.php" class="<?php if($page == 'index.php') echo "active"; ?>"><li>HOME</li></a>
+            <a href="sobre.php" class="<?php if($page == 'sobre.php') echo "active"; ?>"><li>A SEMCOMP</li></a>
+            <a class=""><li class="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down"></i></li></a>
+            <a href="" class="<?php if($page == 'programacao.php') echo "active"; ?>"><li class="links-responsive">PROGRAMAÇÃO GERAL</li></a>
+            <a href="" class="<?php if($page == 'minicursos.php') echo "active"; ?>"><li class="links-responsive">MINICURSOS</li></a>
+            <a href="" class="<?php if($page == 'maratona.php') echo "active"; ?>"><li class="links-responsive">MARATONA DE PROGRAMAÇÃO</li></a>
+            <a href="" class="<?php if($page == 'startups.php') echo "active"; ?>"><li class="links-responsive">PAINEL DE STARTUPS</li></a>
+            <a href="" class="<?php if($page == 'papers.php') echo "active"; ?>"><li class="links-responsive">CALL FOR PAPERS</li></a>
+            <a href="contato.php" class="<?php if($page == 'contato.php') echo "active"; ?>"><li>CONTATO</li></a>
+            <a href="" class="<?php if($page == 'inscricoes.php') echo "active"; ?>"><li>INSCREVA-SE</li></a>
         </ul>
     </div>
     <ul class="programming">
