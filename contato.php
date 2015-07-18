@@ -5,8 +5,10 @@
         <?php require_once('includes/head.inc');?>
     </head>
     <body>
-        <?php require_once('includes/navigation.inc');?>
-        <header class="default-header header-contact"></header>
+        <header class="default-header header-contact">
+            <?php require_once('includes/navigation.inc');?>
+            <div class="map"></div>
+        </header>
         <main>
             <section class="content overlay-content">
                <h3 class="sub-title">Preencha os campos abaixo para enviar sua mensagem <i class="fa fa-comments rotate"></i></h3>

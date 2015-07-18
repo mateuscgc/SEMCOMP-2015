@@ -1,19 +1,22 @@
+<?php
+    $page = $_SERVER['REQUEST_URI'];
+    $page = end(explode('/', $page));
+?>
 <nav>
     <div class="nav-wrapper">
-       <!-- <div class="logo"><img src="assets/images/marca_semcomp_2015_horizontal_colorida_fundo-escuro.png"alt=""></div> -->
        <?php echo file_get_contents('assets/images/marca_semcomp_2015.svg'); ?>
        <div id="toggle"><i class="fa fa-bars"></i></div>
         <ul class="link-list">
-            <a href="index.php"><li>HOME</li></a>
-            <a href="sobre.php"><li>A SEMCOMP</li></a>
-            <a><li class="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down"></i></li></a>
-            <a href=""><li class="links-responsive">PROGRAMAÇÃO GERAL</li></a>
-            <a href=""><li class="links-responsive">MINICURSOS</li></a>
-            <a href=""><li class="links-responsive">MARATONA DE PROGRAMAÇÃO</li></a>
-            <a href=""><li class="links-responsive">PAINEL DE STARTUPS</li></a>
-            <a href=""><li class="links-responsive">CALL FOR PAPERS</li></a>
-            <a href="contact.php"><li>CONTATO</li></a>
-            <a href=""><li>INSCREVA-SE</li></a>
+            <a href="index.php" class="<?php if($page == 'index.php') echo "active"; ?>"><li>HOME</li></a>
+            <a href="sobre.php" class="<?php if($page == 'sobre.php') echo "active"; ?>"><li>A SEMCOMP</li></a>
+            <a class=""><li class="dropdown">PROGRAMAÇÃO <i class="fa fa-chevron-down"></i></li></a>
+            <a href="" class="<?php if($page == 'programacao.php') echo "active"; ?>"><li class="links-responsive">PROGRAMAÇÃO GERAL</li></a>
+            <a href="" class="<?php if($page == 'minicursos.php') echo "active"; ?>"><li class="links-responsive">MINICURSOS</li></a>
+            <a href="" class="<?php if($page == 'maratona.php') echo "active"; ?>"><li class="links-responsive">MARATONA DE PROGRAMAÇÃO</li></a>
+            <a href="" class="<?php if($page == 'startups.php') echo "active"; ?>"><li class="links-responsive">PAINEL DE STARTUPS</li></a>
+            <a href="" class="<?php if($page == 'papers.php') echo "active"; ?>"><li class="links-responsive">CALL FOR PAPERS</li></a>
+            <a href="contato.php" class="<?php if($page == 'contato.php') echo "active"; ?>"><li>CONTATO</li></a>
+            <a href="" class="<?php if($page == 'inscricoes.php') echo "active"; ?>"><li>INSCREVA-SE</li></a>
         </ul>
     </div>
     <ul class="programming">
