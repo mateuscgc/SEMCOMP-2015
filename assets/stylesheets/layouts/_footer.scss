@@ -4,15 +4,57 @@
     padding: 20px 0px 5px 0px;
     text-align: center;
     background-color: $light-grey;
-    .social-networks-home>a>i {color: $dark-grey;}
-    h4 {margin: 25px 0px 10px 0px; color: $dark-grey;}
-    .logo-info{
-        width: 120px;
+    .content {
+        padding-bottom: 0px;
     }
-    .description-info{text-align: justify; margin: 0;}
+    .social-networks-home > a > i {
+        color: $dark-grey;
+    }
+    h4 {
+        margin: 25px 0px 15px 0px;
+        color: $dark-grey;
+    }
+    .link-info {
+        a {
+            float: right;
+        }
+        span {
+        font-size: 1.5em;
+        display: block;
+        margin-top: 10px;
+        }
+    }
+    .logo-info {
+        width: 150px;
+    }
+    .description-info {
+        text-align: left;
+        margin: 0;
+    }
     ul {
-        li{display: inline;}
+        li {
+            display: inline;
+        }
     }
-    a , a:visited{color: black;}
-    a:hover{color: $dark-grey;}
+    a, a:visited {
+        margin: 0 7px;
+        font-size: 1em;
+        color: $dark-grey;
+    }
+    div {
+        // background: blue;
+    }
+    .copyright {
+        margin-top: 30px;
+        display: inline-block;
+        color: $dark-grey;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .footer {
+        .description-info {
+            text-align: center;
+        }
+    }
 }

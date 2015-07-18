@@ -40,3 +40,9 @@ main, .regular-section {
 section:last-child{
      margin-bottom: 30px;
 }
+
+@media screen and (max-width: 500px) {
+    .content {
+        padding: 30px 10px;
+    }
+}
