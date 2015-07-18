@@ -5,10 +5,8 @@
         <?php require_once('includes/head.inc');?>
     </head>
     <body>
-        <?php require_once('includes/navigation.inc');?>
         <header class="default-header header-aboutus">
-            <div class="overlay">
-            </div>
+            <?php require_once('includes/navigation.inc');?>
         </header>
         <main>
             <section class="content overlay-content">
