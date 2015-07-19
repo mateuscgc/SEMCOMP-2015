@@ -11,8 +11,8 @@
         <main>
             <div class="content overlay-content text-aboutus papers-content">
                 <h3 class="sub-title">Quer se apresentar na SEMCOMP 2015?<br>Está é a vez de mostrar o seu conhecimento!</h3>
-                <p>A SEMCOMP 2015 está realizando a 2ª edição do Call for Papers, onde qualquer pessoa pode submeter palestras, se você tem bastante conhecimento em uma determina área, está trabalhando em algo inovador e deseja compartilhar esse conhecimento, está é a sua oportunidade.</p>
-                <p>Os inscritos no Call for Papers não deve se inscrever no evento até que seja divulgado o resultado.</p>
+                <p>A SEMCOMP 2015 está realizando a 2ª edição do Call for Papers, onde qualquer pessoa pode submeter palestras. Se você tem bastante conhecimento em uma determinada área, está trabalhando em algo inovador e deseja compartilhar esse conhecimento, esta é a sua oportunidade.</p>
+                <p>Os inscritos no Call for Papers não devem se inscrever no evento até que seja divulgado o resultado.</p>
                 <h3 class="sub-title">TEMAS</h3>
                 <p>Podem ser inscritas apresentações de qualquer tema, mas aqui vai algumas sugestões:</p>
                 <ul>
@@ -73,7 +73,7 @@
                     <li>Experiência do responsável</li>
                 </ul>
                 <h3 class="sub-title">RESULTADOS</h3>
-                <p>Os papers selecionados serão divulgados no dia <b>20/08</b> os vencedores serão contatados para combinar o dia e a hora da apresentação.</p>
+                <p>Os papers selecionados serão divulgados no dia <b>20/08</b>. Os vencedores serão contatados para combinar o dia e a hora da apresentação.</p>
             </div>
         </main>
         <?php require_once('includes/footer.inc');?>
