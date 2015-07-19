@@ -5,10 +5,11 @@
     <?php require_once('includes/head.inc');?>
 </head>
 <body>
-   <?php require_once('includes/navigation.inc');?>
-   <header class="default-header header-aboutus"></header>
-   <main>
-       <div class="content overlay-content">
+    <header class="default-header header-aboutus">
+        <?php require_once('includes/navigation.inc');?>
+    </header>
+    <main>
+        <div class="content overlay-content">
             <h3 class="sub-title">Serão 4 dias de muito conteúdo, experiência, aprendizado e network.<br>Confira a programação completa</h3>
             <div class="day-trigger day-active col-md-2 col-sm-4 col-xs-6 col-sm-offset-2" day="1">
                 <h2>02/09</h2>

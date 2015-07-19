@@ -1,7 +1,9 @@
 // Global Variables
 
-// Menu
+var mainOffset;
+var contact = false;
 
+// Menu
 $('#toggle').click(function() {
     if ($('nav').hasClass('menu-down')) {
         $('nav').removeClass('menu-down');
@@ -9,6 +11,14 @@ $('#toggle').click(function() {
         $('nav').addClass('menu-down');
     }
     $('.link-list').stop().slideToggle(300);
+});
+
+$(document).ready(function(){
+    mainOffset = $('main').offset().top;
+    if ($('#map_canvas').length != 0) {
+       $('nav').addClass('fixed-nav');
+       contact = true;
+    }
 });
 
 // Dropdown programação
@@ -23,7 +33,7 @@ $('.dropdown, .programming').hover(function(){
 
 // Fixed Menu
 $(window).scroll(function(){
-    if ($(this).scrollTop() > 20) {
+    if ($(this).scrollTop() > 20 || contact) {
         $('nav').addClass('fixed-nav');
     } else {
         $('nav').removeClass('fixed-nav');
