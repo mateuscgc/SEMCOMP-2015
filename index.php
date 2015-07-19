@@ -110,25 +110,18 @@
         <section class="regular-section" id="sponsors">
             <div class="content">
                 <h3 class="sub-title">Quem está contribuindo com a realização da SEMCOMP 2015.</h3>
-                <p class="sponsor-type">Patrocínio Diamante</p>
-                <div class="sponsor-unit sponsor-diamond">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
-                </div>
                 <p class="sponsor-type">Patrocínio Ouro</p>
-                <div class="sponsor-unit sponsor-gold">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                <div class="sponsor-unit">
+                    <img src="assets/images/logo-jusbrasil.png" height="90px" alt="SEMCOMP">
                 </div>
                 <p class="sponsor-type">Patrocínio Prata</p>
-                <div class="sponsor-unit sponsor-silver">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                <div class="sponsor-unit">
+                    <img src="assets/images/tecnoAtiva.png" height="40px" alt="SEMCOMP">
                 </div>
-                <p class="sponsor-type">Patrocínio Bronze</p>
-                <div class="sponsor-unit sponsor-bronze">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
-                    <img src="assets/images/logo.png" alt="SEMCOMP">
+                <p class="sponsor-type">Apoio</p>
+                <div class="sponsor-unit sponsor-support">
+                    <img src="assets/images/Logo_Globocom_2012-1.png" height="30" alt="SEMCOMP">
+                    <img src="assets/images/logo-transp.png" width="609" height="306" alt="SEMCOMP">
                 </div>
             </div>
         </section>
