@@ -1,11 +1,11 @@
 <footer class="footer">
         <div class="content">
-            <div class="social-networks social-networks-home">
+            <div class="social-networks social-networks-footer">
                 <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="fa fa-youtube"></i></a>
                 <a href="https://twitter.com/Semcompufba" target="_blank"><i class="fa fa-twitter"></i></a>
             </div>
-            <ul class="footer">
+            <ul class="footer footer-links">
                 <a href="index.php"><li>Home</li></a>
                 <a href="sobre.php"><li>A SEMCOMP</li></a>
                 <a href="programacao.php"><li>Programação Geral</li></a>
@@ -19,7 +19,7 @@
             <h4>Realização</h4>
             <div class="col-lg-4 col-lg-offset-2">
                <a  class="link-info" href="http://www.infojr.com.br" target="_blank">
-                <img class="logo-info" src="assets/images/info.png" alt="">
+                <img class="logo-info" src="assets/images/InfoJr - Horizontal.svg" alt="">
                    <span>www.infojr.com.br</span></a>
             </div>
             <div class="col-lg-4">
