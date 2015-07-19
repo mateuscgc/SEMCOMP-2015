@@ -12,7 +12,7 @@
         </video>
         <div class="overlay">
             <?php require_once('includes/navigation.inc');?>
-            <div class="social-networks social-networks-home">
+            <div class="social-networks social-networks-header">
                 <a href="https://www.facebook.com/semanacomp" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a href="https://www.youtube.com/user/SEMCOMPUFBA" target="_blank"><i class="fa fa-youtube"></i></a>
                 <a href="https://twitter.com/Semcompufba" target="_blank"><i class="fa fa-twitter"></i></a>

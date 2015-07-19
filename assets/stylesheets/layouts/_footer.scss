@@ -4,25 +4,28 @@
     width: 100%;
     padding: 20px 0px 5px 0px;
     text-align: center;
-    background-color: $light-grey;
+    background-color: transparent;
     .content {
         padding-bottom: 0px;
     }
-    .social-networks-home > a > i {
-        color: $dark-grey;
+    .social-networks-footer {
+        a, a:focus {
+            color: $dark-grey;
+        }
+        a:hover {
+            color: white;
+        }
     }
     h4 {
         margin: 25px 0px 15px 0px;
-        color: $dark-grey;
+        color: $light-grey;
     }
     .link-info {
-        a {
-            float: right;
-        }
+        color: $primary-green;
         span {
-        font-size: 1.5em;
-        display: block;
-        margin-top: 10px;
+            font-size: 1.5em;
+            display: block;
+            margin-top: 10px;
         }
     }
     .logo-info {
@@ -31,19 +34,19 @@
     .description-info {
         text-align: left;
         margin: 0;
+        color: $light-grey;
     }
     ul {
         li {
             display: inline;
         }
     }
-    a, a:visited {
-        margin: 0 7px;
-        font-size: 1em;
-        color: $dark-grey;
-    }
-    div {
-        // background: blue;
+    .footer-links {
+            a, a:visited {
+            margin: 0 7px;
+            font-size: 1em;
+            color: lighten($dark-grey, 20%);
+        }
     }
     .copyright {
         margin-top: 30px;

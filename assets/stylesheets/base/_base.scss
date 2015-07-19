@@ -7,7 +7,7 @@ html, body{
 	margin: 0;
 	width: 100%;
 	padding: 0;
-    background-color: $light-grey!important;
+    background-color: lighten(black, 10%)!important;
 }
 main, .regular-section {
     text-align: center;
