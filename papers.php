@@ -10,7 +10,7 @@
         </header>
         <main>
             <div class="content overlay-content text-aboutus papers-content">
-                <h3 class="sub-title">Quer se apresentar na SEMCOMP 2015?<br>Está é a vez de mostrar o seu conhecimento!</h3>
+                <h3 class="sub-title">Quer se apresentar na SEMCOMP 2015?<br>Esta é a vez de mostrar o seu conhecimento!</h3>
                 <p>A SEMCOMP 2015 está realizando a 2ª edição do Call for Papers, onde qualquer pessoa pode submeter palestras. Se você tem bastante conhecimento em uma determinada área, está trabalhando em algo inovador e deseja compartilhar esse conhecimento, esta é a sua oportunidade.</p>
                 <p>Os inscritos no Call for Papers não devem se inscrever no evento até que seja divulgado o resultado.</p>
                 <h3 class="sub-title">TEMAS</h3>
