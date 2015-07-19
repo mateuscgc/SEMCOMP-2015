@@ -20,10 +20,10 @@
         </ul>
     </div>
     <ul class="programming">
-        <li>PROGRAMAÇÃO GERAL</li>
+        <a href="programacao.php"><li>PROGRAMAÇÃO GERAL</li></a>
         <li>MINICURSOS</li>
         <li>MARATONA DE PROGRAMAÇÃO</li>
         <li>PAINEL DE STARTUPS</li>
-        <li>CALL FOR PAPERS</li>
+        <a href="papers.php"><li>CALL FOR PAPERS</li></a>
     </ul>
 </nav>

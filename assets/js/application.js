@@ -1,6 +1,8 @@
 // Global Variables
+
 var mainOffset;
 var contact = false;
+
 // Menu
 $('#toggle').click(function() {
     if ($('nav').hasClass('menu-down')) {
@@ -10,6 +12,7 @@ $('#toggle').click(function() {
     }
     $('.link-list').stop().slideToggle(300);
 });
+
 $(document).ready(function(){
     mainOffset = $('main').offset().top;
     if ($('#map_canvas').length != 0) {
