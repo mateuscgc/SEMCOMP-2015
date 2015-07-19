@@ -7,7 +7,7 @@
     <body>
         <header class="default-header header-contact">
             <?php require_once('includes/navigation.inc');?>
-            <div class="map"></div>
+            <div id="map_canvas"></div>
         </header>
         <main>
             <section class="content overlay-content">
@@ -26,5 +26,27 @@
             </section>
         </main>
         <?php require_once('includes/footer.inc');?>
+        <script>
+            var marker;
+            function initialize() {
+                var map_canvas = document.getElementById('map_canvas');
+                var map_options = {
+                    center: new google.maps.LatLng(-12.99970, -38.51041),
+                    zoom: 17,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    scrollwheel: false
+                }
+                var map = new google.maps.Map(map_canvas, map_options)
+
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(-12.99970, -38.51041),
+                    map: map,
+                    title: 'Politécnica',
+                    animation: google.maps.Animation.BOUNCE
+                     });
+                     google.maps.event.addListener(marker, 'mouseout', toggleBounce);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
     </body>
 </html>
