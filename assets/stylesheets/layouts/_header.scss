@@ -4,7 +4,7 @@
     background-color: black;
     z-index: 10;
 }
-..header-aboutus{
+.header-aboutus{
     background-image: linear-gradient(rgba(lighten(black, 10%), 0.3) 75%,
         rgba(lighten(black, 10%), 1.0)), url('../images/bg-aboutus.jpg')!important; /* Chrome 10+, Saf5.1+ */
     background-repeat: no-repeat;
