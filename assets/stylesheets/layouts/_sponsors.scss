@@ -9,7 +9,6 @@
     padding-bottom: 15px;
     text-align: center;
     img {
-        height: 50px;
         width: auto;
         display: inline-block;
         margin: 10px 30px;
@@ -30,4 +29,16 @@
 
 .sponsor-bronze img {
     height: 60px;
+}
+
+.sponsor-support img {
+    height: 60px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .sponsor-unit img {
+        margin: 10px;
+        max-height: 80px;
+    }
 }

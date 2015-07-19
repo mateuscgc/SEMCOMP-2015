@@ -32,3 +32,4 @@
 <script src="vendors/jquery/jquery-numscroller-1.0.js"></script>
 <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/application.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
