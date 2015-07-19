@@ -1,5 +1,4 @@
 // Global Variables
-var mainOffset;
 
 // Menu
 
@@ -10,9 +9,6 @@ $('#toggle').click(function() {
         $('nav').addClass('menu-down');
     }
     $('.link-list').stop().slideToggle(300);
-});
-$(document).ready(function(){
-    mainOffset = $('main').offset().top;
 });
 
 // Dropdown programação

@@ -134,5 +134,22 @@
         </section>
     </main>
    <?php require_once('includes/footer.inc');?>
+   <script type="">
+        var keynotesOffset;
+        var dataOffset;
+        var delay = 0;
+        $(document).ready(function(){
+            keynotesOffset = $('#keynotes').offset().top;
+            dataOffset = $('#data').offset().top;
+        });
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > keynotesOffset - 200) {
+                $('.keynote').each(function (){
+                    $(this).delay(delay).animate({opacity: 1, marginTop: '0px'}, '400');
+                    delay += 400;
+                });
+            }
+        });
+   </script>
 </body>
 </html>
