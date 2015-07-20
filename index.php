@@ -95,7 +95,7 @@
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
                     <h1><div class="numscroller" data-max="90" data-min="0" data-increment="1" data-delay="2">90</div>+</h1>
-                    <h3>Horas</h3>
+                    <h3>Horas de atividades</h3>
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
                     <h1><div class="numscroller" data-max="4" data-min="0" data-increment="1" data-delay="2">4</div></h1>
