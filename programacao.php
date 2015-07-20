@@ -5,7 +5,7 @@
     <?php require_once('includes/head.inc');?>
 </head>
 <body>
-    <header class="default-header header-contact">
+    <header class="default-header header-schedule">
         <?php require_once('includes/navigation.inc');?>
     </header>
     <main>
