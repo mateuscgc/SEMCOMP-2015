@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php require_once('includes/navigation.inc');?>
-        <header class="default-header header-aboutus">
+        <header class="default-header header-papers">
         </header>
         <main>
             <div class="content overlay-content text-aboutus papers-content">

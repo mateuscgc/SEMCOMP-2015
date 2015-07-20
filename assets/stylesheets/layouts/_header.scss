@@ -3,19 +3,30 @@
     height: 300px;
     background-color: black;
     z-index: 10;
+    @extend %bg-cover-center;
 }
 .header-aboutus{
-    background-image: linear-gradient(rgba(lighten(black, 10%), 0.3) 75%,
-        rgba(lighten(black, 10%), 1.0)), url('../images/bg-aboutus.jpg')!important; /* Chrome 10+, Saf5.1+ */
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../images/bg-aboutus.jpg')!important;
 
 }
-.header-contact{
-    background-image: linear-gradient(rgba(lighten(black, 10%), 0.3) 75%,
-        rgba(lighten(black, 10%), 1.0)), url('../images/bg-contact.jpg'); /* Chrome 10+, Saf5.1+ */
-    background-repeat: no-repeat;
-    background-size: cover;
+.header-papers{
+    background-image: url('../images/bg-papers.jpg')!important;
+
+}
+.header-schedule{
+    background-image: url('../images/bg-schedule.jpg')!important;
+}
+.header-maratona{
+    background-image: url('../images/bg-maratona.jpg')!important;
+}
+.header-courses{
+    background-image: url('../images/bg-courses.jpg')!important;
+}
+.header-startups{
+    background-image: url('../images/bg-startups.jpg')!important;
+}
+.header-tickets{
+    background-image: url('../images/bg-tickets.jpg')!important;
 }
 .home-header {
     position: relative;
