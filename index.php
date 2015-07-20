@@ -7,8 +7,8 @@
 </head>
 <body>
     <header class="home-header">
-        <video class="home-bg-video" autoplay loop>
-            <!-- <source src="https://hrcdn.net/videos/hr_20mb.webm" type="video/webm"> -->
+        <video class="home-bg-video" poster="assets/images/jm.png" autoplay loop>
+            <source  src="assets/bg-video.mp4" type="video/mp4">
         </video>
         <div class="overlay">
             <?php require_once('includes/navigation.inc');?>
