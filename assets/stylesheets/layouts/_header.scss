@@ -11,6 +11,13 @@
     background-size: cover;
 
 }
+.header-papers{
+    background-image: linear-gradient(rgba(lighten(black, 10%), 0.3) 75%,
+        rgba(lighten(black, 10%), 1.0)), url('../images/bg-papers.jpg')!important; /* Chrome 10+, Saf5.1+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 .header-contact{
     background-image: linear-gradient(rgba(lighten(black, 10%), 0.3) 75%,
         rgba(lighten(black, 10%), 1.0)), url('../images/bg-contact.jpg'); /* Chrome 10+, Saf5.1+ */
