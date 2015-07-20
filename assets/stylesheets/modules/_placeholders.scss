@@ -1,5 +1,15 @@
-%bg-cover-center {
+%bg-cover {
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+%bg-cover-center {
+	@extend %bg-cover;
     background-position: center;
 }
+
+%bg-cover-bottom {
+	@extend %bg-cover;
+    background-position: center bottom;
+}
+
