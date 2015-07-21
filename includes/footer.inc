@@ -9,12 +9,12 @@
                 <a href="index.php"><li>Home</li></a>
                 <a href="sobre.php"><li>A SEMCOMP</li></a>
                 <a href="programacao.php"><li>Programação Geral</li></a>
-                <a href=""><li>Minicursos</li></a>
-                <a href=""><li>Maratona de Programação</li></a>
-                <a href=""><li>Painel de Startups</li></a>
-                <a href=""><li>Call for Papers</li></a>
-                <a href="contact.php"><li>Contato</li></a>
-                <a href=""><li>Inscreva-se</li></a>
+                <a href="minicursos.php"><li>Minicursos</li></a>
+                <a href="maratona.php"><li>Maratona de Programação</li></a>
+                <a href="startups.php"><li>Painel de Startups</li></a>
+                <a href="papers.php"><li>Call for Papers</li></a>
+                <a href="contato.php"><li>Contato</li></a>
+                <a href="inscricoes.php"><li>Inscreva-se</li></a>
             </ul>
             <h4>Realização</h4>
             <div class="col-lg-4 col-lg-offset-2">
