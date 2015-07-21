@@ -31,54 +31,34 @@
                 <h3 class="sub-title">Da uma olhada em quem vai marcar presença</h3>
                 <div class="row">
                     <div class="keynote col-md-4 col-sm-6">
-                        <img src="assets/images/caio-sacramento.jpg" height="960" width="720" class="speaker-thumb keynote-thumb">
+                        <img src="assets/images/leandro-bennaton.jpg" class="speaker-thumb keynote-thumb">
                         <div class="keynote-info">
-                            <h2 class="keynote-name">Caio Sacramento</h2>
-                            <span class="keynote-title">Trainee</span>
+                            <h2 class="keynote-name">Leandro Bennaton</h2>
+                            <span class="keynote-title">CSO - Terra</span>
                         </div>
                     </div>
                     <div class="keynote col-md-4 col-sm-6">
-                        <img src="assets/images/cristiano-santos.jpg" height="222" width="222" class="speaker-thumb keynote-thumb">
+                        <img src="assets/images/willian-justen.jpg" class="speaker-thumb keynote-thumb">
                         <div class="keynote-info">
-                            <h2 class="keynote-name">Cristiano Santos</h2>
-                            <span class="keynote-title">Pós Júnior</span>
+                            <h2 class="keynote-name">Willian Justen</h2>
+                            <span class="keynote-title">Frontend Engineer - Globo.com</span>
                         </div>
                     </div>
                     <div class="keynote col-md-4 col-sm-6">
-                        <img src="assets/images/diego-cajaiba.jpg" class="speaker-thumb keynote-thumb">
+                        <img src="assets/images/bruno-ribas.jpg" class="speaker-thumb keynote-thumb">
                         <div class="keynote-info">
-                            <h2 class="keynote-name">Diego Cajaiba</h2>
-                            <span class="keynote-title">Assessor de Presidência</span>
-                        </div>
-                    </div>
-                    <div class="keynote col-md-4 col-sm-6">
-                        <img src="assets/images/jp.jpg" class="speaker-thumb keynote-thumb">
-                        <div class="keynote-info">
-                            <h2 class="keynote-name">JP</h2>
-                            <span class="keynote-title">Assessor de Marketing</span>
-                        </div>
-                    </div>
-                    <div class="keynote col-md-4 col-sm-6">
-                        <img src="assets/images/kaio-porto.jpg" height="231" width="231" class="speaker-thumb keynote-thumb">
-                        <div class="keynote-info">
-                            <h2 class="keynote-name">Kaio Porto</h2>
-                            <span class="keynote-title">Assessor de Projetos</span>
-                        </div>
-                    </div>
-                    <div class="keynote col-md-4 col-sm-6">
-                        <img src="assets/images/leonardo-costa.jpg" height="960" width="579" class="speaker-thumb keynote-thumb">
-                        <div class="keynote-info">
-                            <h2 class="keynote-name">Leonardo Costa</h2>
-                            <span class="keynote-title">Gerente de Comunicação</span>
+                            <h2 class="keynote-name">Bruno Ribas</h2>
+                            <span class="keynote-title">Professor - UTFPR</span>
                         </div>
                     </div>
                     <div class="keynote col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
-                        <img src="assets/images/vinicius-dias.jpg" height="960" width="960" class="speaker-thumb keynote-thumb">
+                        <img src="assets/images/keynote-breve.jpg" class="speaker-thumb undefined-thumb">
                         <div class="keynote-info">
-                            <h2 class="keynote-name">Vinicius Dias</h2>
-                            <span class="keynote-title">Gerente de Treinamentos</span>
+                            <h2 class="keynote-name">????</h2>
+                            <span class="keynote-title">????</span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
