@@ -7,8 +7,8 @@
 </head>
 <body>
     <header class="home-header">
-        <video class="home-bg-video" autoplay loop>
-            <!-- <source src="https://hrcdn.net/videos/hr_20mb.webm" type="video/webm"> -->
+        <video class="home-bg-video" poster="assets/images/jm.png" autoplay loop>
+            <source  src="assets/bg-video.mp4" type="video/mp4">
         </video>
         <div class="overlay">
             <?php require_once('includes/navigation.inc');?>
@@ -29,6 +29,7 @@
     <main>
         <section class="regular-section" id="keynotes">
             <div class="content">
+                <h3 class="sub-title">Da uma olhada em quem vai marcar presença</h3>
                 <div class="row">
                     <div class="keynote col-md-4 col-sm-6">
                         <img src="assets/images/caio-sacramento.jpg" height="960" width="720" class="speaker-thumb keynote-thumb">
