@@ -23,7 +23,6 @@
                 <h2 class="semcomp-date">02 a 05 de Setembro</h2>
                 <span class="semcomp-local">Escola Politécnica da UFBA</span>
             </div>
-            <button class="btn btn-nobg-green btn-home-video">Quem Vai<i class="fa fa-chevron-down"></i></button>
         </div>
     </header>
     <main>
@@ -87,20 +86,20 @@
             <div class="bg-test"></div>
             <div class="content">
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1><div class="numscroller" data-max="4" data-min="0" data-increment="1" data-delay="2">4</div></h1>
+                    <h1><div class="numscroller" data-max="4" data-min="0" data-increment="1" data-delay="1.5">4</div></h1>
                     <h3>Dias</h3>
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1><div class="numscroller" data-max="30" data-min="0" data-increment="1" data-delay="2">30</div>+</h1>
+                    <h1><div class="numscroller" data-max="30" data-min="0" data-increment="1" data-delay="1.8">30</div>+</h1>
                     <h3>Palestras</h3>
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1><div class="numscroller" data-max="90" data-min="0" data-increment="1" data-delay="2">90</div>+</h1>
-                    <h3>Horas de atividades</h3>
+                    <h1><div class="numscroller" data-max="4" data-min="0" data-increment="1" data-delay="2.1">4</div></h1>
+                    <h3>Cursos</h3>
                 </div>
                 <div class="data-unit col-md-3 col-xs-6">
-                    <h1><div class="numscroller" data-max="4" data-min="0" data-increment="1" data-delay="2">4</div></h1>
-                    <h3>Cursos</h3>
+                    <h1><div class="numscroller" data-max="90" data-min="0" data-increment="1" data-delay="2.4">90</div>+</h1>
+                    <h3>Horas de Conteúdo</h3>
                 </div>
                 <div class="data-actions">
                     <button class="btn btn-nobg-green">Programação Completa</button>
