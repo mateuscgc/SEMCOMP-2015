@@ -6,7 +6,7 @@
                 <a href="https://twitter.com/Semcompufba" target="_blank"><i class="fa fa-twitter"></i></a>
             </div>
             <ul class="footer footer-links">
-                <a href="index"><li>Home</li></a>
+                <a href="/"><li>Home</li></a>
                 <a href="sobre"><li>A SEMCOMP</li></a>
                 <a href="programacao"><li>Programação Geral</li></a>
                 <a href="minicursos"><li>Minicursos</li></a>
