@@ -12,7 +12,7 @@
             <div class="content overlay-content text-aboutus papers-content">
                 <h3 class="sub-title">Quer se apresentar na SEMCOMP 2015?<br>Esta é a vez de mostrar o seu conhecimento!</h3>
                 <p>A SEMCOMP 2015 está realizando a 2ª edição do Call for Papers, onde qualquer pessoa pode submeter palestras. Se você tem bastante conhecimento em uma determinada área, está trabalhando em algo inovador e deseja compartilhar esse conhecimento, esta é a sua oportunidade.</p>
-                <p>Os inscritos no Call for Papers não devem se inscrever no evento até que seja divulgado o resultado.</p>
+                <p class="alert">Os inscritos no Call for Papers não devem se inscrever no evento até que seja divulgado o resultado.</p>
                 <h3 class="sub-title">TEMAS</h3>
                 <p>Podem ser inscritas apresentações de qualquer tema, mas aqui vai algumas sugestões:</p>
                 <ul>
@@ -31,7 +31,7 @@
                 </ul>
                 <h3 class="sub-title">DATAS IMPORTANTES</h3>
                 <ul>
-                    <li>Inscrições - <b>21/07 a 15/08</b></li>
+                    <li>Inscrições - <b>23/07 a 15/08</b></li>
                     <li>Divulgação dos papers selecionados - <b>20/08</b></li>
                     <li>Confirmação da participação dos ganhadores - <b>20/08 a 25/08</b></li>
                     <li>SEMCOMP 2015 - <b>02/09 a 05/09</b></li>

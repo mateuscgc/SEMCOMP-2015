@@ -12,3 +12,12 @@
 .active {
     color: $primary-green!important;
 }
+
+.alert {
+    height: 50px;
+    line-height: 47px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FCF8E3;
+    border: 1px #FAEBCC solid;
+}
