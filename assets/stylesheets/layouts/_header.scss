@@ -3,15 +3,13 @@
     height: 300px;
     background-color: black;
     z-index: 10;
-    @extend %bg-cover-center;
+    @extend %bg-cover-bottom;
 }
 .header-aboutus{
     background-image: url('../images/bg-aboutus.jpg')!important;
-
 }
 .header-papers{
     background-image: url('../images/bg-papers.jpg')!important;
-
 }
 .header-schedule{
     background-image: url('../images/bg-schedule.jpg')!important;

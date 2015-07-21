@@ -29,6 +29,7 @@
     <main>
         <section class="regular-section" id="keynotes">
             <div class="content">
+                <h3 class="sub-title">Da uma olhada em quem vai marcar presença</h3>
                 <div class="row">
                     <div class="keynote col-md-4 col-sm-6">
                         <img src="assets/images/caio-sacramento.jpg" height="960" width="720" class="speaker-thumb keynote-thumb">
