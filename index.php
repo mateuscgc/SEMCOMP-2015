@@ -23,7 +23,6 @@
                 <h2 class="semcomp-date">02 a 05 de Setembro</h2>
                 <span class="semcomp-local">Escola Politécnica da UFBA</span>
             </div>
-            <button class="btn btn-nobg-green btn-home-video">Quem Vai<i class="fa fa-chevron-down"></i></button>
         </div>
     </header>
     <main>
