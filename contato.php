@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>O Evento - SEMCOMP 2015</title>
+        <title>Entre em Contato - SEMCOMP 2015</title>
         <?php require_once('includes/head.inc');?>
     </head>
     <body>

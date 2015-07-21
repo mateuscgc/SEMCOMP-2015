@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home - SEMCOMP 2015</title>
+    <title>SEMCOMP 2015</title>
     <?php require_once('includes/head.inc');?>
 </head>
 <body>
@@ -109,7 +109,7 @@
         </section>
         <section class="regular-section" id="sponsors">
             <div class="content">
-                <h3 class="sub-title">Quem está contribuindo com a realização da SEMCOMP 2015.</h3>
+                <h3 class="sub-title">Quem está contribuindo com a realização da SEMCOMP <span class="year-color">2015</span>.</h3>
                 <p class="sponsor-type">Patrocínio Ouro</p>
                 <div class="sponsor-unit">
                     <a href="http://www.jusbrasil.com.br/bem-vindo" target="_blank"><img src="assets/images/logo-jusbrasil.png" height="90px" alt="SEMCOMP"></a>
