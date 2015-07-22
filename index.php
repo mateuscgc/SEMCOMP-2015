@@ -7,8 +7,10 @@
 </head>
 <body>
     <header class="home-header">
-        <video class="home-bg-video" poster="assets/images/jm.png" autoplay loop>
+        <video class="home-bg-video" poster="assets/images/jm.png" autoplay loop muted>
             <source  src="assets/bg-video.mp4" type="video/mp4">
+            <source  src="assets/bg-video.webm" type="video/webm">
+            Seu Navegador não suporta a tag video
         </video>
         <div class="overlay">
             <?php require_once('includes/navigation.inc');?>
@@ -28,7 +30,7 @@
     <main>
         <section class="regular-section" id="keynotes">
             <div class="content">
-                <h3 class="sub-title">Da uma olhada em quem vai marcar presença</h3>
+                <h3 class="sub-title">Confira quem vai marcar presença</h3>
                 <div class="row">
                     <div class="keynote col-md-4 col-sm-6">
                         <img src="assets/images/leandro-bennaton.jpg" class="speaker-thumb keynote-thumb">
