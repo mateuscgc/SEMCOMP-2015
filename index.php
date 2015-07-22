@@ -7,7 +7,7 @@
 </head>
 <body>
     <header class="home-header">
-        <video class="home-bg-video" poster="assets/images/jm.png" autoplay loop muted>
+        <video class="home-bg-video" poster="assets/images/jm.png" autoplay loop>
             <source  src="assets/bg-video.mp4" type="video/mp4">
             <source  src="assets/bg-video.webm" type="video/webm">
             Seu Navegador não suporta a tag video
