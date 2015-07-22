@@ -6,31 +6,32 @@
     @extend %bg-cover;
 }
 .header-aboutus{
-    background-image: url('../images/bg-aboutus.jpg')!important;
+    background-image: linear-gradient(to bottom, rgba(#1A1A1A, .1) 30%, #1A1A1A), url('../images/bg-aboutus.jpg');
     background-position: center;
+    background-color: white;
 }
 .header-papers{
-    background-image: url('../images/bg-papers.jpg')!important;
+    background-image: linear-gradient(to bottom, rgba(#1A1A1A, .1) 30%, #1A1A1A), url('../images/bg-papers.jpg');
     background-position: center 90%;
 }
 .header-schedule{
-    background-image: url('../images/bg-schedule.jpg')!important;
+    background-image: linear-gradient(to bottom, rgba(#1A1A1A, .1) 30%, #1A1A1A), url('../images/bg-schedule.jpg');
     background-position: center 20%;
 }
 .header-maratona{
-    background-image: url('../images/bg-maratona.jpg')!important;
+    background-image: linear-gradient(to bottom, rgba(#1A1A1A, .1) 30%, #1A1A1A), url('../images/bg-maratona.jpg');
     background-position: center 30%;
 }
 .header-courses{
-    background-image: url('../images/bg-courses.jpg')!important;
+    background-image: linear-gradient(to bottom, rgba(#1A1A1A, .1) 30%, #1A1A1A), url('../images/bg-courses.jpg');
     background-position: center;
 }
 .header-startups{
-    background-image: url('../images/bg-startups.jpg')!important;
+    background-image: linear-gradient(to bottom, rgba(#1A1A1A, .1) 30%, #1A1A1A), url('../images/bg-startups.jpg');
     background-position: center 10%;
 }
 .header-tickets{
-    background-image: url('../images/bg-tickets.jpg')!important;
+    background-image: linear-gradient(to bottom, rgba(#1A1A1A, .1) 30%, #1A1A1A), url('../images/bg-tickets.jpg');
     background-position: center;
 }
 .home-header {
