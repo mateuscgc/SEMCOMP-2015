@@ -11,6 +11,12 @@
     <main>
         <div class="content overlay-content">
             <h3 class="sub-title">Serão 4 dias de muito conteúdo, experiência, aprendizado e network.<br>Confira a programação completa</h3>
+            <ul class="alert">
+                <li>A SEMCOMP 2015 terá atividade da manhã até a noite.</li>
+                <li>Os minicursos ocorrerão preferencialmente pela manhã.</li>
+                <li>Todas as noites teremos palestras de keynotes.</li>
+            </ul>
+            <p class="alert">Em breve divulgaremos o cronograma completo da SEMCOMP 2015.</p>
             <div class="day-trigger day-active col-md-2 col-sm-4 col-xs-6 col-sm-offset-2" day="1">
                 <h2>02/09</h2>
                 <span>Quarta-Feira</span>
