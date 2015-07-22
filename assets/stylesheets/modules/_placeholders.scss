@@ -7,9 +7,3 @@
 	@extend %bg-cover;
     background-position: center;
 }
-
-%bg-cover-bottom {
-	@extend %bg-cover;
-    background-position: center bottom;
-}
-
