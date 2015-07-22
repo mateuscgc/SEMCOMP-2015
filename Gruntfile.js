@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         },
         autoprefixer: {
             options: {
-                browsers: ['last 2 versions']
+                browsers: ['> 1%']
             },
             dist: {
                 files: {
