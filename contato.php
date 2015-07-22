@@ -13,15 +13,15 @@
             <section class="content overlay-content">
                <h3 class="sub-title">Preencha os campos abaixo para enviar sua mensagem <i class="fa fa-comments rotate"></i></h3>
                 <form class="contact-form" action="controllers/mail.php" method="POST">
-                    <label for=""><i class="fa fa-user rotate"></i></label>
+                    <label for=""><i class="fa fa-user"></i></label>
                     <input type="text" name="name" placeholder="Nome">
-                    <label for=""><i class="fa fa-envelope rotate"></i></label>
+                    <label for=""><i class="fa fa-envelope"></i></label>
                     <input type="text" name="email" placeholder="Email">
-                    <label for=""><i class="fa fa-file rotate"></i></label>
+                    <label for=""><i class="fa fa-file"></i></label>
                     <input type="text" name="title" placeholder="Assunto">
-                    <label class="message" for=""><i class="fa fa-comment rotate"></i></label>
+                    <label class="message" for=""><i class="fa fa-comment"></i></label>
                     <textarea class="message" name="message" placeholder="Mensagem" ></textarea>
-                    <button class="btn btn-green">Enviar</button>
+                    <button class="btn btn-green btn-contact">Enviar</button>
                 </form>
             </section>
         </main>

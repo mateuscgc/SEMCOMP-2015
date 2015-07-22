@@ -38,20 +38,20 @@
                 </ul>
                 <h3 class="sub-title">COMO SE INSCREVER</h3>
                 <p>Os interessados devem enviar um e-mail até <b>20 de Agosto as 23:59</b> para <b>contato@semcomp.com.br</b> com as seguintes informações:</p>
-                <h4><i class="fa fa-user rotate"></i> DADOS PESSOAIS</h4>
+                <h4><i class="fa fa-user"></i> DADOS PESSOAIS</h4>
                 <ul>
                     <li>Nome completo</li>
                     <li>Ano de nascimento</li>
                     <li>Telefone</li>
                     <li>E-mail</li>
                 </ul>
-                <h4><i class="fa fa-graduation-cap rotate"></i> DADOS PROFISSIONAIS</h4>
+                <h4><i class="fa fa-graduation-cap"></i> DADOS PROFISSIONAIS</h4>
                 <ul>
                     <li>Formação acadêmica</li>
                     <li>Área de atuação</li>
                     <li>Currículo lattes</li>
                 </ul>
-                <h4><i class="fa fa-lightbulb-o rotate"></i> INFORMAÇÕES SOBRE A PALESTRA</h4>
+                <h4><i class="fa fa-lightbulb-o"></i> INFORMAÇÕES SOBRE A PALESTRA</h4>
                 <ul>
                     <li>Título</li>
                     <li>Temática</li>
