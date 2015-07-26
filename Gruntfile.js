@@ -2,12 +2,12 @@ module.exports = function(grunt) {
     grunt.initConfig({
         copy: {
             main: {
-                files: {
-                    {expand: true, src: ['node_modules/jquery/dist/**'], dest: 'vendors/jquery/'},
-                    {expand: true, src: ['node_modules/font-awesome/**'], dest: 'vendors/font-awesome/'},
-                }
+                files: [
+                    {expand: true, cwd: 'node_modules/jquery/dist/', src: '**', dest: 'vendors/jquery/'},
+                    {expand: true, cwd: 'node_modules/font-awesome/', src: '**', dest: 'vendors/font-awesome/'},
+                ]
             }
-        }
+        },
         sass: {
             dist: {
                 options: {
