@@ -3,3 +3,5 @@
 node_modules/
 assets/stylesheets/application.css
 assets/stylesheets/application.css.map
+vendors/jquery/
+vendors/font-awesome/
